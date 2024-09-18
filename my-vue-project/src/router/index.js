@@ -12,6 +12,9 @@ import indexBanner from '../views/index-Banner.vue'
 import SightSpot from '../views/SightSpot.vue'
 import Dining from '../views/Dining.vue'
 
+
+
+
 const routes = [{
     path: '/',
     name: 'index',

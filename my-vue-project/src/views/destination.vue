@@ -41,11 +41,7 @@
         </div>
       </div>
       <div class="part1-right">
-        <div class="picture1"></div>
-        <div class="picture2"></div>
-        <div class="picture3"></div>
-        <div class="picture4"></div>
-        <div class="picture5"></div>
+       <TextComponent />
       </div>
     </div>
   </div>
@@ -67,8 +63,139 @@
           <div class="nr-button2"><span class="nrb2-txt">自然风光</span></div>
         </div>
       </div>
+     <div class="pc2-bottom">
+        <div class="pc2-bottom-top">
+          <div class="pc2-bottom-top-item1">
+            <div class="img-pc2"></div>
+            <div class="text-pc2">
+              <div class="text1-pc2">张家界 许晓超</div>
+              <div class="text2-pc2">
+                <div class="img-And"></div>
+                <div class="img-text">湖南省张家界市</div>
+              </div>
+            </div>
+          </div>
+          <div class="pc2-bottom-top-item2">
+            <div class="img-pc2"></div>
+            <div class="text-pc2">
+              <div class="text1-pc2">张家界 许晓超</div>
+              <div class="text2-pc2">
+                <div class="img-And"></div>
+                <div class="img-text">湖南省张家界市</div>
+              </div>
+            </div>
+          </div>
+          <div class="pc2-bottom-top-item3">
+            <div class="img-pc2"></div>
+            <div class="text-pc2">
+              <div class="text1-pc2">张家界 许晓超</div>
+              <div class="text2-pc2">
+                <div class="img-And"></div>
+                <div class="img-text">湖南省张家界市</div>
+              </div>
+            </div>
+          </div>
+          <div class="pc2-bottom-top-item4">
+            <div class="img-pc2"></div>
+            <div class="text-pc2">
+              <div class="text1-pc2">张家界 许晓超</div>
+              <div class="text2-pc2">
+                <div class="img-And"></div>
+                <div class="img-text">湖南省张家界市</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="pc2-bottom">
-        <div class="pc2b-forehead">
+        <div class="pc2-bottom-top">
+          <div class="pc2-bottom-top-item1">
+            <div class="img-pc2"></div>
+            <div class="text-pc2">
+              <div class="text1-pc2">张家界 许晓超</div>
+              <div class="text2-pc2">
+                <div class="img-And"></div>
+                <div class="img-text">湖南省张家界市</div>
+              </div>
+            </div>
+          </div>
+          <div class="pc2-bottom-top-item2">
+            <div class="img-pc2"></div>
+            <div class="text-pc2">
+              <div class="text1-pc2">张家界 许晓超</div>
+              <div class="text2-pc2">
+                <div class="img-And"></div>
+                <div class="img-text">湖南省张家界市</div>
+              </div>
+            </div>
+          </div>
+          <div class="pc2-bottom-top-item3">
+            <div class="img-pc2"></div>
+            <div class="text-pc2">
+              <div class="text1-pc2">张家界 许晓超</div>
+              <div class="text2-pc2">
+                <div class="img-And"></div>
+                <div class="img-text">湖南省张家界市</div>
+              </div>
+            </div>
+          </div>
+          <div class="pc2-bottom-top-item4">
+            <div class="img-pc2"></div>
+            <div class="text-pc2">
+              <div class="text1-pc2">张家界 许晓超</div>
+              <div class="text2-pc2">
+                <div class="img-And"></div>
+                <div class="img-text">湖南省张家界市</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="pc2-bottom-bottom">
+             <div class="pc2-bottom-top-item5">
+            <div class="img-pc2"></div>
+            <div class="text-pc2">
+              <div class="text1-pc2">张家界 许晓超</div>
+              <div class="text2-pc2">
+                <div class="img-And"></div>
+                <div class="img-text">1111</div>
+              </div>
+            </div>
+          </div>
+          <div class="pc2-bottom-top-item6">
+            <div class="img-pc2"></div>
+            <div class="text-pc2">
+              <div class="text1-pc2">张家界 许晓超</div>
+              <div class="text2-pc2">
+                <div class="img-And"></div>
+                <div class="img-text"></div>
+              </div>
+            </div>
+          </div>
+          <div class="pc2-bottom-top-item7">
+            <div class="img-pc2"></div>
+            <div class="text-pc2">
+              <div class="text1-pc2">张家界 许晓超</div>
+              <div class="text2-pc2">
+                <div class="img-And"></div>
+                <div class="img-text"></div>
+              </div>
+            </div>
+          </div>
+          <div class="pc2-bottom-top-item8">
+            <div class="img-pc2"></div>
+            <div class="text-pc2">
+              <div class="text1-pc2">张家界 许晓超</div>
+              <div class="text2-pc2">
+                <div class="img-And"></div>
+                <div class="img-text"></div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- <div class="pc2b-forehead">
           <div class="item1">
             <div class="item1-img"></div>
             <div class="item1-txt">
@@ -175,7 +302,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -262,8 +389,13 @@
 </template>
   
   <script>
+  import TextComponent from '@/components/TextComponent.vue';
+
 export default {
   name: "App",
+  components: {
+    TextComponent,  // 注册 TextComponent 组件
+  },
 };
 </script>
   
@@ -389,6 +521,7 @@ export default {
         align-self: stretch;
         .txt1 {
           position: relative;
+          left: -70px;
           display: flex;
           flex-direction: column;
           z-index: 0;
@@ -408,7 +541,9 @@ export default {
           align-self: stretch;
         }
         .txt2 {
-          position: relative;
+         position: relative;
+          left: 48px;
+          text-align: left;
           display: flex;
           flex-direction: column;
           z-index: 1;
@@ -422,7 +557,7 @@ export default {
           opacity: 1;
           font-family: "HarmonyOSSansSC-Regular";
           letter-spacing: 0px;
-          white-space: pre-wrap;
+          // white-space: pre-wrap;
           order: 1;
           height: auto;
           align-self: stretch;
@@ -430,6 +565,7 @@ export default {
       }
       .left-bottom {
         position: relative;
+        left: 50px;
         z-index: 2;
         width: 208px;
         height: auto;
@@ -498,86 +634,117 @@ export default {
         }
       }
     }
-    .part1-right {
-      position: relative;
-      z-index: 2;
-      width: 680px;
-      height: 680px;
-      mix-blend-mode: normal;
-      display: flex;
-      order: 1;
-      flex-shrink: 0;
-      .picture1 {
-        position: absolute;
-        z-index: 0;
-        left: 20px;
-        top: 20px;
-        width: 480px;
-        height: 640px;
-        border-radius: 8px;
-        mix-blend-mode: normal;
-        box-sizing: border-box;
-        opacity: 1;
 
-        background-image: url(https://img.jsdesign2.com/assets/img/6556e73f90ab84325baa606a.png#85d85dbadb9db0744eaa6c894d882c4d);
-      }
-      .picture2 {
-        position: absolute;
-        z-index: 1;
-        left: 60px;
-        top: 20px;
-        width: 480px;
-        height: 640px;
-        border-radius: 8px;
-        mix-blend-mode: normal;
-        box-sizing: border-box;
-        opacity: 1;
+    //   .picture1 {
+    //     position: absolute;
+    //     z-index: 0;
+    //     left: 20px;
+    //     top: 20px;
+    //     width: 480px;
+    //     height: 640px;
+    //     border-radius: 8px;
+    //     mix-blend-mode: normal;
+    //     box-sizing: border-box;
+    //     opacity: 1;
 
-        background-image: url(https://img.jsdesign2.com/assets/img/6556e738a12e5e2687bbec56.png#4d29663c6a133d50c1c1d2a70c0988a1);
-      }
-      .picture3 {
-        position: absolute;
-        z-index: 2;
-        left: 100px;
-        top: 20px;
-        width: 480px;
-        height: 640px;
-        border-radius: 8px;
-        mix-blend-mode: normal;
-        box-sizing: border-box;
-        opacity: 1;
+    //     background-image: url(https://img.jsdesign2.com/assets/img/6556e73f90ab84325baa606a.png#85d85dbadb9db0744eaa6c894d882c4d);
+    //   }
+    //   .picture2 {
+    //     position: absolute;
+    //     z-index: 1;
+    //     left: 60px;
+    //     top: 20px;
+    //     width: 480px;
+    //     height: 640px;
+    //     border-radius: 8px;
+    //     mix-blend-mode: normal;
+    //     box-sizing: border-box;
+    //     opacity: 1;
 
-        background-image: url(https://img.jsdesign2.com/assets/img/6556e73109dc60275483cac2.png#a5614229ed4a88f45748333e152c8413);
-      }
-      .picture4 {
-        position: absolute;
-        z-index: 3;
-        left: 140px;
-        top: 20px;
-        width: 480px;
-        height: 640px;
-        border-radius: 8px;
-        mix-blend-mode: normal;
-        box-sizing: border-box;
-        opacity: 1;
+    //     background-image: url(https://img.jsdesign2.com/assets/img/6556e738a12e5e2687bbec56.png#4d29663c6a133d50c1c1d2a70c0988a1);
+    //   }
+    //   .picture3 {
+    //     position: absolute;
+    //     z-index: 2;
+    //     left: 100px;
+    //     top: 20px;
+    //     width: 480px;
+    //     height: 640px;
+    //     border-radius: 8px;
+    //     mix-blend-mode: normal;
+    //     box-sizing: border-box;
+    //     opacity: 1;
 
-        background-image: url(https://img.jsdesign2.com/assets/img/6556e740eb009f7cc7031d9c.png#eb9b1f394997e92225fd6ce1067cddf2);
-      }
-      .picture5 {
-        position: absolute;
-        z-index: 4;
-        left: 180px;
-        top: 20px;
-        width: 480px;
-        height: 640px;
-        border-radius: 8px;
-        mix-blend-mode: normal;
-        box-sizing: border-box;
-        opacity: 1;
+    //     background-image: url(https://img.jsdesign2.com/assets/img/6556e73109dc60275483cac2.png#a5614229ed4a88f45748333e152c8413);
+    //   }
+    //   .picture4 {
+    //     position: absolute;
+    //     z-index: 3;
+    //     left: 140px;
+    //     top: 20px;
+    //     width: 480px;
+    //     height: 640px;
+    //     border-radius: 8px;
+    //     mix-blend-mode: normal;
+    //     box-sizing: border-box;
+    //     opacity: 1;
 
-        background-image: url(https://img.jsdesign2.com/assets/img/65374fa6ccc9429bf6ded8c1.png#a538c274220a418dcb396bc184e07ba7);
-      }
-    }
+    //     background-image: url(https://img.jsdesign2.com/assets/img/6556e740eb009f7cc7031d9c.png#eb9b1f394997e92225fd6ce1067cddf2);
+    //   }
+    //   .picture5 {
+    //     position: absolute;
+    //     z-index: 4;
+    //     left: 180px;
+    //     top: 20px;
+    //     width: 480px;
+    //     height: 640px;
+    //     border-radius: 8px;
+    //     mix-blend-mode: normal;
+    //     box-sizing: border-box;
+    //     opacity: 1;
+
+    //     background-image: url(https://img.jsdesign2.com/assets/img/65374fa6ccc9429bf6ded8c1.png#a538c274220a418dcb396bc184e07ba7);
+    //   }
+    // }
+//     .part1-right {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   height: 100%;
+// }
+ .part1-right {
+  position: relative;
+  z-index: 2;
+  width: 680px;
+  height: 1080px;
+  mix-blend-mode: normal;
+  display: flex;
+  order: 1;
+  flex-shrink: 0;
+  overflow: hidden;  /* 确保内容不会溢出 */
+  justify-content: center;
+  align-items: center;  /* 中心对齐内容 */
+}
+
+.cards-container {
+  width:2000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  transform: scale(0.7);  /* 调整缩放比例，确保卡片适应容器 */
+  transform-origin: center; /* 缩放中心 */
+  gap: 10px;  /* 卡片之间的间距 */
+}
+
+.card {
+  margin: 5px;
+  width: auto;  /* 调整卡片宽度以适应容器 */
+  height: auto;
+  box-sizing: border-box;
+  /* 其他样式保持不变 */
+}
+
+
   }
 }
 .main-part-2 {
@@ -640,7 +807,8 @@ export default {
     order: 1;
     min-height: auto;
     .part2-nav {
-      position: relative;
+       position: relative;
+      left: 50px;
       z-index: 1;
       width: unset;
       height: auto;
@@ -653,7 +821,7 @@ export default {
       min-height: auto;
       align-self: stretch;
       .nav-left {
-        position: relative;
+       position: relative;
         z-index: 1;
         width: unset;
         height: auto;
@@ -883,21 +1051,23 @@ export default {
         }
       }
     }
-    .pc2-bottom {
+  .pc2-bottom {
+      left: 50px;
       position: relative;
-      z-index: 2;
+      z-index: 1;
       width: unset;
       height: auto;
       mix-blend-mode: normal;
       display: flex;
-      flex-direction: column;
       justify-content: flex-start;
       align-items: flex-start;
-      gap: 24px;
-      order: 1;
+      overflow: hidden;
+      gap: 12px;
+      order: 0;
       min-height: auto;
       align-self: stretch;
-      .pc2b-forehead {
+
+      .pc2-bottom-top {
         position: relative;
         z-index: 1;
         width: unset;
@@ -911,37 +1081,39 @@ export default {
         order: 0;
         min-height: auto;
         align-self: stretch;
-        .item1 {
+        .pc2-bottom-top-item1 {
           position: relative;
           z-index: 1;
           width: unset;
           height: 240px;
           mix-blend-mode: normal;
-          display: flex;
-          justify-content: center;
-          align-items: center;
+          align-content: flex-start;
           order: 0;
           flex: 1;
-
-          .item1-img {
+          .img-pc2 {
             position: relative;
-            z-index: 0;
+            z-index: 1;
             width: 311px;
             height: 180px;
             border-radius: 8px;
             mix-blend-mode: normal;
             display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            order: 0;
+            flex-shrink: 0;
+            align-self: stretch;
+
+            display: flex;
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
             background-image: url(https://img.jsdesign2.com/assets/img/6556e73686711ace31ea631a.png#25ebe5445751f295b3f2a216b4622814);
-            order: 0;
-            flex: 1;
+            background-size: 311px 180px;
           }
-          .item1-txt {
+          .text-pc2 {
             position: relative;
-            top: 220px;
-            left: -310px;
             z-index: 2;
             width: unset;
             height: auto;
@@ -954,7 +1126,7 @@ export default {
             order: 1;
             min-height: auto;
             align-self: stretch;
-            .it1-txt1 {
+            .text1-pc2 {
               position: relative;
               z-index: 1;
               width: unset;
@@ -968,46 +1140,8 @@ export default {
               order: 0;
               min-height: auto;
               align-self: stretch;
-              .item1-txt1-1 {
-                position: relative;
-                display: flex;
-                flex-direction: column;
-                z-index: 0;
-                justify-content: start;
-                height: 24px;
-                mix-blend-mode: normal;
-                color: rgba(29, 33, 41, 1);
-                font-size: 16px;
-                line-height: 24px;
-                font-weight: 400;
-                opacity: 1;
-                font-family: "HarmonyOSSansSC-Regular";
-                letter-spacing: 0px;
-                white-space: nowrap;
-                order: 0;
-                width: auto;
-              }
-              .item1-txt1-2 {
-                position: relative;
-                display: flex;
-                flex-direction: column;
-                z-index: 1;
-                justify-content: start;
-                height: 24px;
-                mix-blend-mode: normal;
-                color: rgba(134, 144, 156, 1);
-                font-size: 16px;
-                line-height: 24px;
-                font-weight: 400;
-                opacity: 1;
-                font-family: "HarmonyOSSansSC-Regular";
-                letter-spacing: 0px;
-                white-space: nowrap;
-                order: 1;
-                width: auto;
-              }
             }
-            .it1-txt2 {
+            .text2-pc2 {
               position: relative;
               z-index: 2;
               width: unset;
@@ -1020,33 +1154,135 @@ export default {
               order: 1;
               min-height: auto;
               align-self: stretch;
-              .item1-txt2-icon {
-                position: absolute;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                content: "";
-                opacity: 1;
-                background-image: var(--bg-img);
-                background-size: cover;
 
+              .img-And {
                 position: relative;
                 z-index: 0;
-
+                border: unset !important;
                 box-shadow: unset;
                 width: 16px;
                 height: 16px;
                 mix-blend-mode: normal;
                 display: flex;
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-image: url(https://img.jsdesign2.com/assets/element/js_gyewIwpzzNH/image/916727f446e547a123e7761fbe334216331b5ec9.png);
+                background-image: url(https://img.jsdesign2.com/assets/element/js_7tbA2BbXK7x/image/916727f446e547a123e7761fbe334216331b5ec9.png);
+                background-size: 16px 16px;
                 order: 0;
                 flex-shrink: 0;
               }
-              .item1-txt2-2 {
+              .img-text {
+                position: relative;
+                text-align: left;
+                display: flex;
+                flex-direction: column;
+                z-index: 1;
+                justify-content: start;
+                width: 291px;
+                height: 20px;
+                mix-blend-mode: normal;
+                color: rgba(134, 144, 156, 1);
+                font-size: 14px;
+                line-height: 20px;
+                font-weight: 400;
+                opacity: 1;
+                font-family: "HarmonyOSSansSC-Regular";
+                letter-spacing: 0px;
+                white-space: pre-wrap;
+                order: 1;
+                flex-shrink: 0;
+              }
+            }
+          }
+        }
+        .pc2-bottom-top-item2 {
+          position: relative;
+          z-index: 1;
+          width: unset;
+          height: 240px;
+          mix-blend-mode: normal;
+          align-content: flex-start;
+          order: 0;
+          flex: 1;
+          .img-pc2 {
+            position: relative;
+            z-index: 1;
+            width: 311px;
+            height: 180px;
+            border-radius: 8px;
+            mix-blend-mode: normal;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            order: 0;
+            flex-shrink: 0;
+            align-self: stretch;
+
+            display: flex;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-image: url(https://img.jsdesign2.com/assets/img/6556e73686711ace31ea631a.png#25ebe5445751f295b3f2a216b4622814);
+            background-size: 311px 180px;
+          }
+          .text-pc2 {
+            position: relative;
+            z-index: 2;
+            width: unset;
+            height: auto;
+            mix-blend-mode: normal;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 4px;
+            order: 1;
+            min-height: auto;
+            align-self: stretch;
+            .text1-pc2 {
+              position: relative;
+              z-index: 1;
+              width: unset;
+              height: auto;
+              mix-blend-mode: normal;
+              display: flex;
+              justify-content: flex-start;
+              align-items: flex-start;
+              overflow: hidden;
+              gap: 8px;
+              order: 0;
+              min-height: auto;
+              align-self: stretch;
+            }
+            .text2-pc2 {
+              position: relative;
+              z-index: 2;
+              width: unset;
+              height: auto;
+              mix-blend-mode: normal;
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              gap: 4px;
+              order: 1;
+              min-height: auto;
+              align-self: stretch;
+
+              .img-And {
+                position: relative;
+                z-index: 0;
+                border: unset !important;
+                box-shadow: unset;
+                width: 16px;
+                height: 16px;
+                mix-blend-mode: normal;
+                display: flex;
+                background-size: 16px 16px;
+                background-image: url(https://img.jsdesign2.com/assets/element/js_7tbA2BbXK7x/image/916727f446e547a123e7761fbe334216331b5ec9.png);
+                order: 0;
+                flex-shrink: 0;
+              }
+              .img-text {
+                text-align: left;
                 position: relative;
                 display: flex;
                 flex-direction: column;
@@ -1069,37 +1305,39 @@ export default {
             }
           }
         }
-        .item2 {
+        .pc2-bottom-top-item3 {
           position: relative;
-          z-index: 2;
+          z-index: 1;
           width: unset;
-          height: auto;
+          height: 240px;
           mix-blend-mode: normal;
-          display: flex;
-          flex-direction: column;
-          justify-content: flex-start;
-          align-items: flex-start;
-          gap: 12px;
-          order: 1;
+          align-content: flex-start;
+          order: 0;
           flex: 1;
-          .item2-img {
+          .img-pc2 {
             position: relative;
-            z-index: 0;
-            width: unset;
+            z-index: 1;
+            width: 311px;
             height: 180px;
             border-radius: 8px;
             mix-blend-mode: normal;
             display: flex;
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-image: url(https://img.jsdesign2.com/assets/img/6556e74f43b95387d42669fb.png#6b7a56d0cdc93a4f90696fda6ce1b4f8);
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
             order: 0;
-            flex: 1;
-          }
-          .item2-txt {
-            position: relative;
+            flex-shrink: 0;
+            align-self: stretch;
 
+            display: flex;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-image: url(https://img.jsdesign2.com/assets/img/6556e73686711ace31ea631a.png#25ebe5445751f295b3f2a216b4622814);
+            background-size: 311px 180px;
+          }
+          .text-pc2 {
+            position: relative;
             z-index: 2;
             width: unset;
             height: auto;
@@ -1112,7 +1350,7 @@ export default {
             order: 1;
             min-height: auto;
             align-self: stretch;
-            .it2-txt1 {
+            .text1-pc2 {
               position: relative;
               z-index: 1;
               width: unset;
@@ -1121,50 +1359,13 @@ export default {
               display: flex;
               justify-content: flex-start;
               align-items: flex-start;
+              overflow: hidden;
               gap: 8px;
               order: 0;
               min-height: auto;
               align-self: stretch;
-              .item2-txt1-1 {
-                position: relative;
-                display: flex;
-                flex-direction: column;
-                z-index: 0;
-                justify-content: start;
-                height: 24px;
-                mix-blend-mode: normal;
-                color: rgba(29, 33, 41, 1);
-                font-size: 16px;
-                line-height: 24px;
-                font-weight: 400;
-                opacity: 1;
-                font-family: "HarmonyOSSansSC-Regular";
-                letter-spacing: 0px;
-                white-space: nowrap;
-                order: 0;
-                width: auto;
-              }
-              .item2-txt1-2 {
-                position: relative;
-                display: flex;
-                flex-direction: column;
-                z-index: 1;
-                justify-content: start;
-                height: 24px;
-                mix-blend-mode: normal;
-                color: rgba(134, 144, 156, 1);
-                font-size: 16px;
-                line-height: 24px;
-                font-weight: 400;
-                opacity: 1;
-                font-family: "HarmonyOSSansSC-Regular";
-                letter-spacing: 0px;
-                white-space: nowrap;
-                order: 1;
-                width: auto;
-              }
             }
-            .it2-txt2 {
+            .text2-pc2 {
               position: relative;
               z-index: 2;
               width: unset;
@@ -1177,7 +1378,8 @@ export default {
               order: 1;
               min-height: auto;
               align-self: stretch;
-              .item2-txt1-icon {
+
+              .img-And {
                 position: relative;
                 z-index: 0;
                 border: unset !important;
@@ -1186,14 +1388,13 @@ export default {
                 height: 16px;
                 mix-blend-mode: normal;
                 display: flex;
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-image: url(https://img.jsdesign2.com/assets/element/js_gyewIwpzzNH/image/916727f446e547a123e7761fbe334216331b5ec9.png);
+                background-size: 16px 16px;
+                background-image: url(https://img.jsdesign2.com/assets/element/js_7tbA2BbXK7x/image/916727f446e547a123e7761fbe334216331b5ec9.png);
                 order: 0;
                 flex-shrink: 0;
               }
-              .item2-txt2-2 {
+              .img-text {
+                text-align: left;
                 position: relative;
                 display: flex;
                 flex-direction: column;
@@ -1216,35 +1417,38 @@ export default {
             }
           }
         }
-        .item3 {
+        .pc2-bottom-top-item4 {
           position: relative;
-          z-index: 3;
+          z-index: 1;
           width: unset;
-          height: auto;
+          height: 240px;
           mix-blend-mode: normal;
-          display: flex;
-          flex-direction: column;
-          justify-content: flex-start;
-          align-items: flex-start;
-          gap: 12px;
-          order: 2;
+          align-content: flex-start;
+          order: 0;
           flex: 1;
-          .item3-img {
+          .img-pc2 {
             position: relative;
-            z-index: 0;
-            width: unset;
+            z-index: 1;
+            width: 311px;
             height: 180px;
             border-radius: 8px;
             mix-blend-mode: normal;
             display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            order: 0;
+            flex-shrink: 0;
+            align-self: stretch;
+
+            display: flex;
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            background-image: url(https://img.jsdesign2.com/assets/img/6556e74f86711ace31ea63ab.png#153a273c83b681d3992638ddce7d636e);
-            order: 0;
-            flex: 1;
+            background-image: url(https://img.jsdesign2.com/assets/img/6556e73686711ace31ea631a.png#25ebe5445751f295b3f2a216b4622814);
+            background-size: 311px 180px;
           }
-          .item3-txt {
+          .text-pc2 {
             position: relative;
             z-index: 2;
             width: unset;
@@ -1258,7 +1462,7 @@ export default {
             order: 1;
             min-height: auto;
             align-self: stretch;
-            .it3-txt1 {
+            .text1-pc2 {
               position: relative;
               z-index: 1;
               width: unset;
@@ -1267,50 +1471,13 @@ export default {
               display: flex;
               justify-content: flex-start;
               align-items: flex-start;
+              overflow: hidden;
               gap: 8px;
               order: 0;
               min-height: auto;
               align-self: stretch;
-              .item3-txt1-1 {
-                position: relative;
-                display: flex;
-                flex-direction: column;
-                z-index: 0;
-                justify-content: start;
-                height: 24px;
-                mix-blend-mode: normal;
-                color: rgba(29, 33, 41, 1);
-                font-size: 16px;
-                line-height: 24px;
-                font-weight: 400;
-                opacity: 1;
-                font-family: "HarmonyOSSansSC-Regular";
-                letter-spacing: 0px;
-                white-space: nowrap;
-                order: 0;
-                width: auto;
-              }
-              .item3-txt1-2 {
-                position: relative;
-                display: flex;
-                flex-direction: column;
-                z-index: 1;
-                justify-content: start;
-                height: 24px;
-                mix-blend-mode: normal;
-                color: rgba(134, 144, 156, 1);
-                font-size: 16px;
-                line-height: 24px;
-                font-weight: 400;
-                opacity: 1;
-                font-family: "HarmonyOSSansSC-Regular";
-                letter-spacing: 0px;
-                white-space: nowrap;
-                order: 1;
-                width: auto;
-              }
             }
-            .it3-txt2 {
+            .text2-pc2 {
               position: relative;
               z-index: 2;
               width: unset;
@@ -1323,7 +1490,8 @@ export default {
               order: 1;
               min-height: auto;
               align-self: stretch;
-              .item3-txt1-icon {
+
+              .img-And {
                 position: relative;
                 z-index: 0;
                 border: unset !important;
@@ -1332,160 +1500,13 @@ export default {
                 height: 16px;
                 mix-blend-mode: normal;
                 display: flex;
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-image: url(https://img.jsdesign2.com/assets/element/js_gyewIwpzzNH/image/916727f446e547a123e7761fbe334216331b5ec9.png);
+                background-size: 16px 16px;
+                background-image: url(https://img.jsdesign2.com/assets/element/js_7tbA2BbXK7x/image/916727f446e547a123e7761fbe334216331b5ec9.png);
                 order: 0;
                 flex-shrink: 0;
               }
-              .item3-txt2-2 {
-                position: relative;
-                display: flex;
-                flex-direction: column;
-                z-index: 1;
-                justify-content: start;
-                width: 291px;
-                height: 20px;
-                mix-blend-mode: normal;
-                color: rgba(134, 144, 156, 1);
-                font-size: 14px;
-                line-height: 20px;
-                font-weight: 400;
-                opacity: 1;
-                font-family: "HarmonyOSSansSC-Regular";
-                letter-spacing: 0px;
-                white-space: pre-wrap;
-                order: 1;
-                flex-shrink: 0;
-              }
-            }
-          }
-        }
-        .item4 {
-          position: relative;
-          z-index: 4;
-          width: unset;
-          height: auto;
-          mix-blend-mode: normal;
-          display: flex;
-          flex-direction: column;
-          justify-content: flex-start;
-          align-items: flex-start;
-          gap: 12px;
-          order: 3;
-          flex: 1;
-          .item4-img {
-            position: relative;
-            z-index: 0;
-            width: unset;
-            height: 180px;
-            border-radius: 8px;
-            mix-blend-mode: normal;
-            display: flex;
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-image: url(https://img.jsdesign2.com/assets/img/6556e73fe1e45fa4efce1420.png#af9528f906d97ad9c68164f4572a6ec4);
-            order: 0;
-            flex: 1;
-          }
-          .item4-txt {
-            position: relative;
-            z-index: 2;
-            width: unset;
-            height: auto;
-            mix-blend-mode: normal;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
-            gap: 4px;
-            order: 1;
-            min-height: auto;
-            align-self: stretch;
-            .it4-txt1 {
-              position: relative;
-              z-index: 1;
-              width: unset;
-              height: auto;
-              mix-blend-mode: normal;
-              display: flex;
-              justify-content: flex-start;
-              align-items: flex-start;
-              gap: 8px;
-              order: 0;
-              min-height: auto;
-              align-self: stretch;
-              .item4-txt1-1 {
-                position: relative;
-                display: flex;
-                flex-direction: column;
-                z-index: 0;
-                justify-content: start;
-                height: 24px;
-                mix-blend-mode: normal;
-                color: rgba(29, 33, 41, 1);
-                font-size: 16px;
-                line-height: 24px;
-                font-weight: 400;
-                opacity: 1;
-                font-family: "HarmonyOSSansSC-Regular";
-                letter-spacing: 0px;
-                white-space: nowrap;
-                order: 0;
-                width: auto;
-              }
-              .item4-txt1-2 {
-                position: relative;
-                display: flex;
-                flex-direction: column;
-                z-index: 1;
-                justify-content: start;
-                height: 24px;
-                mix-blend-mode: normal;
-                color: rgba(134, 144, 156, 1);
-                font-size: 16px;
-                line-height: 24px;
-                font-weight: 400;
-                opacity: 1;
-                font-family: "HarmonyOSSansSC-Regular";
-                letter-spacing: 0px;
-                white-space: nowrap;
-                order: 1;
-                width: auto;
-              }
-            }
-            .it4-txt2 {
-              position: relative;
-              z-index: 2;
-              width: unset;
-              height: auto;
-              mix-blend-mode: normal;
-              display: flex;
-              justify-content: flex-start;
-              align-items: center;
-              gap: 4px;
-              order: 1;
-              min-height: auto;
-              align-self: stretch;
-              .item4-txt1-icon {
-                position: relative;
-                z-index: 0;
-                border: unset !important;
-                box-shadow: unset;
-                width: 16px;
-                height: 16px;
-                mix-blend-mode: normal;
-                display: flex;
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-image: url(https://img.jsdesign2.com/assets/element/js_gyewIwpzzNH/image/916727f446e547a123e7761fbe334216331b5ec9.png);
-                order: 0;
-                flex-shrink: 0;
-              }
-              .item4-txt2-2 {
+              .img-text {
+                text-align: left;
                 position: relative;
                 display: flex;
                 flex-direction: column;
@@ -1509,7 +1530,8 @@ export default {
           }
         }
       }
-      .pc2b-bottom {
+      .pc2-bottom-bottom {
+        left: 50px;
         position: relative;
         z-index: 2;
         width: unset;
@@ -1523,35 +1545,38 @@ export default {
         order: 1;
         min-height: auto;
         align-self: stretch;
-        .item5 {
+        .pc2-bottom-top-item5 {
           position: relative;
           z-index: 1;
           width: unset;
-          height: auto;
+          height: 240px;
           mix-blend-mode: normal;
-          display: flex;
-          flex-direction: column;
-          justify-content: flex-start;
-          align-items: flex-start;
-          gap: 12px;
+          align-content: flex-start;
           order: 0;
           flex: 1;
-          .item5-img {
+          .img-pc2 {
             position: relative;
-            z-index: 0;
-            width: unset;
+            z-index: 1;
+            width: 311px;
             height: 180px;
             border-radius: 8px;
             mix-blend-mode: normal;
             display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            order: 0;
+            flex-shrink: 0;
+            align-self: stretch;
+
+            display: flex;
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            background-image: url(https://img.jsdesign2.com/assets/img/657561a3c464574bd9b35a0b.png#0270437425b77b8ddb07ceeab65ba732);
-            order: 0;
-            flex: 1;
+            background-image: url(https://img.jsdesign2.com/assets/img/6556e73686711ace31ea631a.png#25ebe5445751f295b3f2a216b4622814);
+            background-size: 311px 180px;
           }
-          .item5-txt {
+          .text-pc2 {
             position: relative;
             z-index: 2;
             width: unset;
@@ -1565,7 +1590,7 @@ export default {
             order: 1;
             min-height: auto;
             align-self: stretch;
-            .it5-txt1 {
+            .text1-pc2 {
               position: relative;
               z-index: 1;
               width: unset;
@@ -1574,53 +1599,16 @@ export default {
               display: flex;
               justify-content: flex-start;
               align-items: flex-start;
+              overflow: hidden;
               gap: 8px;
               order: 0;
               min-height: auto;
               align-self: stretch;
-              .item5-txt1-1 {
-                position: relative;
-                display: flex;
-                flex-direction: column;
-                z-index: 0;
-                justify-content: start;
-                height: 24px;
-                mix-blend-mode: normal;
-                color: rgba(29, 33, 41, 1);
-                font-size: 16px;
-                line-height: 24px;
-                font-weight: 400;
-                opacity: 1;
-                font-family: "HarmonyOSSansSC-Regular";
-                letter-spacing: 0px;
-                white-space: nowrap;
-                order: 0;
-                width: auto;
-              }
-              .item5-txt1-2 {
-                position: relative;
-                display: flex;
-                flex-direction: column;
-                z-index: 1;
-                justify-content: start;
-                height: 24px;
-                mix-blend-mode: normal;
-                color: rgba(134, 144, 156, 1);
-                font-size: 16px;
-                line-height: 24px;
-                font-weight: 400;
-                opacity: 1;
-                font-family: "HarmonyOSSansSC-Regular";
-                letter-spacing: 0px;
-                white-space: nowrap;
-                order: 1;
-                width: auto;
-              }
             }
-            .it5-txt2 {
+            .text2-pc2 {
               position: relative;
               z-index: 2;
-              width: auto;
+              width: unset;
               height: auto;
               mix-blend-mode: normal;
               display: flex;
@@ -1629,7 +1617,9 @@ export default {
               gap: 4px;
               order: 1;
               min-height: auto;
-              .item5-txt1-icon {
+              align-self: stretch;
+
+              .img-And {
                 position: relative;
                 z-index: 0;
                 border: unset !important;
@@ -1638,19 +1628,19 @@ export default {
                 height: 16px;
                 mix-blend-mode: normal;
                 display: flex;
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-image: url(https://img.jsdesign2.com/assets/element/js_gyewIwpzzNH/image/916727f446e547a123e7761fbe334216331b5ec9.png);
+                background-size: 16px 16px;
+                background-image: url(https://img.jsdesign2.com/assets/element/js_7tbA2BbXK7x/image/916727f446e547a123e7761fbe334216331b5ec9.png);
                 order: 0;
                 flex-shrink: 0;
               }
-              .item5-txt2-2 {
+              .img-text {
+                text-align: left;
                 position: relative;
                 display: flex;
                 flex-direction: column;
                 z-index: 1;
                 justify-content: start;
+                width: 291px;
                 height: 20px;
                 mix-blend-mode: normal;
                 color: rgba(134, 144, 156, 1);
@@ -1660,42 +1650,45 @@ export default {
                 opacity: 1;
                 font-family: "HarmonyOSSansSC-Regular";
                 letter-spacing: 0px;
-                white-space: nowrap;
+                white-space: pre-wrap;
                 order: 1;
-                width: auto;
+                flex-shrink: 0;
               }
             }
           }
         }
-        .item6 {
+        .pc2-bottom-top-item6 {
           position: relative;
-          z-index: 2;
+          z-index: 1;
           width: unset;
-          height: auto;
+          height: 240px;
           mix-blend-mode: normal;
-          display: flex;
-          flex-direction: column;
-          justify-content: flex-start;
-          align-items: flex-start;
-          gap: 12px;
-          order: 1;
+          align-content: flex-start;
+          order: 0;
           flex: 1;
-          .item6-img {
+          .img-pc2 {
             position: relative;
-            z-index: 0;
-            width: unset;
+            z-index: 1;
+            width: 311px;
             height: 180px;
             border-radius: 8px;
             mix-blend-mode: normal;
             display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            order: 0;
+            flex-shrink: 0;
+            align-self: stretch;
+
+            display: flex;
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            background-image: url(https://img.jsdesign2.com/assets/img/6556e74fe739773bfac4bbbf.png#2687924da7bf308d5680d8c5b1d44fff);
-            order: 0;
-            flex: 1;
+            background-image: url(https://img.jsdesign2.com/assets/img/6556e73686711ace31ea631a.png#25ebe5445751f295b3f2a216b4622814);
+            background-size: 311px 180px;
           }
-          .item6-txt {
+          .text-pc2 {
             position: relative;
             z-index: 2;
             width: unset;
@@ -1709,7 +1702,7 @@ export default {
             order: 1;
             min-height: auto;
             align-self: stretch;
-            .it6-txt1 {
+            .text1-pc2 {
               position: relative;
               z-index: 1;
               width: unset;
@@ -1718,53 +1711,16 @@ export default {
               display: flex;
               justify-content: flex-start;
               align-items: flex-start;
+              overflow: hidden;
               gap: 8px;
               order: 0;
               min-height: auto;
               align-self: stretch;
-              .item6-txt1-1 {
-                position: relative;
-                display: flex;
-                flex-direction: column;
-                z-index: 0;
-                justify-content: start;
-                height: 24px;
-                mix-blend-mode: normal;
-                color: rgba(29, 33, 41, 1);
-                font-size: 16px;
-                line-height: 24px;
-                font-weight: 400;
-                opacity: 1;
-                font-family: "HarmonyOSSansSC-Regular";
-                letter-spacing: 0px;
-                white-space: nowrap;
-                order: 0;
-                width: auto;
-              }
-              .item6-txt1-2 {
-                position: relative;
-                display: flex;
-                flex-direction: column;
-                z-index: 1;
-                justify-content: start;
-                height: 24px;
-                mix-blend-mode: normal;
-                color: rgba(134, 144, 156, 1);
-                font-size: 16px;
-                line-height: 24px;
-                font-weight: 400;
-                opacity: 1;
-                font-family: "HarmonyOSSansSC-Regular";
-                letter-spacing: 0px;
-                white-space: nowrap;
-                order: 1;
-                width: auto;
-              }
             }
-            .it6-txt2 {
+            .text2-pc2 {
               position: relative;
               z-index: 2;
-              width: auto;
+              width: unset;
               height: auto;
               mix-blend-mode: normal;
               display: flex;
@@ -1773,7 +1729,9 @@ export default {
               gap: 4px;
               order: 1;
               min-height: auto;
-              .item6-txt1-icon {
+              align-self: stretch;
+
+              .img-And {
                 position: relative;
                 z-index: 0;
                 border: unset !important;
@@ -1782,19 +1740,21 @@ export default {
                 height: 16px;
                 mix-blend-mode: normal;
                 display: flex;
-                background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
-                background-image: url(https://img.jsdesign2.com/assets/element/js_gyewIwpzzNH/image/916727f446e547a123e7761fbe334216331b5ec9.png);
+                background-size: 16px 16px;
+                background-image: url(https://img.jsdesign2.com/assets/element/js_7tbA2BbXK7x/image/916727f446e547a123e7761fbe334216331b5ec9.png);
                 order: 0;
                 flex-shrink: 0;
               }
-              .item6-txt2-2 {
+              .img-text {
+                text-align: left;
                 position: relative;
                 display: flex;
                 flex-direction: column;
                 z-index: 1;
                 justify-content: start;
+                width: 291px;
                 height: 20px;
                 mix-blend-mode: normal;
                 color: rgba(134, 144, 156, 1);
@@ -1804,42 +1764,45 @@ export default {
                 opacity: 1;
                 font-family: "HarmonyOSSansSC-Regular";
                 letter-spacing: 0px;
-                white-space: nowrap;
+                white-space: pre-wrap;
                 order: 1;
-                width: auto;
+                flex-shrink: 0;
               }
             }
           }
         }
-        .item7 {
+        .pc2-bottom-top-item7 {
           position: relative;
-          z-index: 3;
+          z-index: 1;
           width: unset;
-          height: auto;
+          height: 240px;
           mix-blend-mode: normal;
-          display: flex;
-          flex-direction: column;
-          justify-content: flex-start;
-          align-items: flex-start;
-          gap: 12px;
-          order: 2;
+          align-content: flex-start;
+          order: 0;
           flex: 1;
-          .item7-img {
+          .img-pc2 {
             position: relative;
-            z-index: 0;
-            width: unset;
+            z-index: 1;
+            width: 311px;
             height: 180px;
             border-radius: 8px;
             mix-blend-mode: normal;
             display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            order: 0;
+            flex-shrink: 0;
+            align-self: stretch;
+
+            display: flex;
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            background-image: url(https://img.jsdesign2.com/assets/img/6556e73f90ab84325baa606a.png#85d85dbadb9db0744eaa6c894d882c4d);
-            order: 0;
-            flex: 1;
+            background-image: url(https://img.jsdesign2.com/assets/img/6556e73686711ace31ea631a.png#25ebe5445751f295b3f2a216b4622814);
+            background-size: 311px 180px;
           }
-          .item7-txt {
+          .text-pc2 {
             position: relative;
             z-index: 2;
             width: unset;
@@ -1853,7 +1816,7 @@ export default {
             order: 1;
             min-height: auto;
             align-self: stretch;
-            .it7-txt1 {
+            .text1-pc2 {
               position: relative;
               z-index: 1;
               width: unset;
@@ -1862,53 +1825,16 @@ export default {
               display: flex;
               justify-content: flex-start;
               align-items: flex-start;
+              overflow: hidden;
               gap: 8px;
               order: 0;
               min-height: auto;
               align-self: stretch;
-              .item7-txt1-1 {
-                position: relative;
-                display: flex;
-                flex-direction: column;
-                z-index: 0;
-                justify-content: start;
-                height: 24px;
-                mix-blend-mode: normal;
-                color: rgba(29, 33, 41, 1);
-                font-size: 16px;
-                line-height: 24px;
-                font-weight: 400;
-                opacity: 1;
-                font-family: "HarmonyOSSansSC-Regular";
-                letter-spacing: 0px;
-                white-space: nowrap;
-                order: 0;
-                width: auto;
-              }
-              .item7-txt1-2 {
-                position: relative;
-                display: flex;
-                flex-direction: column;
-                z-index: 1;
-                justify-content: start;
-                height: 24px;
-                mix-blend-mode: normal;
-                color: rgba(134, 144, 156, 1);
-                font-size: 16px;
-                line-height: 24px;
-                font-weight: 400;
-                opacity: 1;
-                font-family: "HarmonyOSSansSC-Regular";
-                letter-spacing: 0px;
-                white-space: nowrap;
-                order: 1;
-                width: auto;
-              }
             }
-            .it7-txt2 {
+            .text2-pc2 {
               position: relative;
               z-index: 2;
-              width: auto;
+              width: unset;
               height: auto;
               mix-blend-mode: normal;
               display: flex;
@@ -1917,7 +1843,9 @@ export default {
               gap: 4px;
               order: 1;
               min-height: auto;
-              .item7-txt1-icon {
+              align-self: stretch;
+
+              .img-And {
                 position: relative;
                 z-index: 0;
                 border: unset !important;
@@ -1926,19 +1854,19 @@ export default {
                 height: 16px;
                 mix-blend-mode: normal;
                 display: flex;
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-image: url(https://img.jsdesign2.com/assets/element/js_gyewIwpzzNH/image/916727f446e547a123e7761fbe334216331b5ec9.png);
+                background-size: 16px 16px;
+                background-image: url(https://img.jsdesign2.com/assets/element/js_7tbA2BbXK7x/image/916727f446e547a123e7761fbe334216331b5ec9.png);
                 order: 0;
                 flex-shrink: 0;
               }
-              .item7-txt2-2 {
+              .img-text {
+                text-align: left;
                 position: relative;
                 display: flex;
                 flex-direction: column;
                 z-index: 1;
                 justify-content: start;
+                width: 291px;
                 height: 20px;
                 mix-blend-mode: normal;
                 color: rgba(134, 144, 156, 1);
@@ -1948,42 +1876,45 @@ export default {
                 opacity: 1;
                 font-family: "HarmonyOSSansSC-Regular";
                 letter-spacing: 0px;
-                white-space: nowrap;
+                white-space: pre-wrap;
                 order: 1;
-                width: auto;
+                flex-shrink: 0;
               }
             }
           }
         }
-        .item8 {
+        .pc2-bottom-top-item8 {
           position: relative;
-          z-index: 4;
+          z-index: 1;
           width: unset;
-          height: auto;
+          height: 240px;
           mix-blend-mode: normal;
-          display: flex;
-          flex-direction: column;
-          justify-content: flex-start;
-          align-items: flex-start;
-          gap: 12px;
-          order: 3;
+          align-content: flex-start;
+          order: 0;
           flex: 1;
-          .item8-img {
+          .img-pc2 {
             position: relative;
-            z-index: 0;
-            width: unset;
+            z-index: 1;
+            width: 311px;
             height: 180px;
             border-radius: 8px;
             mix-blend-mode: normal;
             display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            order: 0;
+            flex-shrink: 0;
+            align-self: stretch;
+
+            display: flex;
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            background-image: url(https://img.jsdesign2.com/assets/img/6556e74fe739773bfac4bbbf.png#2687924da7bf308d5680d8c5b1d44fff);
-            order: 0;
-            flex: 1;
+            background-image: url(https://img.jsdesign2.com/assets/img/6556e73686711ace31ea631a.png#25ebe5445751f295b3f2a216b4622814);
+            background-size: 311px 180px;
           }
-          .item8-txt {
+          .text-pc2 {
             position: relative;
             z-index: 2;
             width: unset;
@@ -1997,7 +1928,7 @@ export default {
             order: 1;
             min-height: auto;
             align-self: stretch;
-            .it8-txt1 {
+            .text1-pc2 {
               position: relative;
               z-index: 1;
               width: unset;
@@ -2006,53 +1937,16 @@ export default {
               display: flex;
               justify-content: flex-start;
               align-items: flex-start;
+              overflow: hidden;
               gap: 8px;
               order: 0;
               min-height: auto;
               align-self: stretch;
-              .item8-txt1-1 {
-                position: relative;
-                display: flex;
-                flex-direction: column;
-                z-index: 0;
-                justify-content: start;
-                height: 24px;
-                mix-blend-mode: normal;
-                color: rgba(29, 33, 41, 1);
-                font-size: 16px;
-                line-height: 24px;
-                font-weight: 400;
-                opacity: 1;
-                font-family: "HarmonyOSSansSC-Regular";
-                letter-spacing: 0px;
-                white-space: nowrap;
-                order: 0;
-                width: auto;
-              }
-              .item8-txt1-2 {
-                position: relative;
-                display: flex;
-                flex-direction: column;
-                z-index: 1;
-                justify-content: start;
-                height: 24px;
-                mix-blend-mode: normal;
-                color: rgba(134, 144, 156, 1);
-                font-size: 16px;
-                line-height: 24px;
-                font-weight: 400;
-                opacity: 1;
-                font-family: "HarmonyOSSansSC-Regular";
-                letter-spacing: 0px;
-                white-space: nowrap;
-                order: 1;
-                width: auto;
-              }
             }
-            .it8-txt2 {
+            .text2-pc2 {
               position: relative;
               z-index: 2;
-              width: auto;
+              width: unset;
               height: auto;
               mix-blend-mode: normal;
               display: flex;
@@ -2061,7 +1955,9 @@ export default {
               gap: 4px;
               order: 1;
               min-height: auto;
-              .item8-txt1-icon {
+              align-self: stretch;
+
+              .img-And {
                 position: relative;
                 z-index: 0;
                 border: unset !important;
@@ -2070,19 +1966,19 @@ export default {
                 height: 16px;
                 mix-blend-mode: normal;
                 display: flex;
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-image: url(https://img.jsdesign2.com/assets/element/js_gyewIwpzzNH/image/916727f446e547a123e7761fbe334216331b5ec9.png);
-                order: 0;
+                background-size: 16px 16px;
+                background-image: url(https://img.jsdesign2.com/assets/element/js_7tbA2BbXK7x/image/916727f446e547a123e7761fbe334216331b5ec9.png);
                 flex-shrink: 0;
+                background-size: 16px 16px;
               }
-              .item8-txt2-2 {
+              .img-text {
+                text-align: left;
                 position: relative;
                 display: flex;
                 flex-direction: column;
                 z-index: 1;
                 justify-content: start;
+                width: 291px;
                 height: 20px;
                 mix-blend-mode: normal;
                 color: rgba(134, 144, 156, 1);
@@ -2092,14 +1988,1218 @@ export default {
                 opacity: 1;
                 font-family: "HarmonyOSSansSC-Regular";
                 letter-spacing: 0px;
-                white-space: nowrap;
+                white-space: pre-wrap;
                 order: 1;
-                width: auto;
+                flex-shrink: 0;
               }
             }
           }
         }
       }
+
+      // .pc2b-forehead {
+      //   position: relative;
+      //   z-index: 1;
+      //   width: unset;
+      //   height: auto;
+      //   mix-blend-mode: normal;
+      //   display: flex;
+      //   justify-content: flex-start;
+      //   align-items: flex-start;
+      //   overflow: hidden;
+      //   gap: 12px;
+      //   order: 0;
+      //   min-height: auto;
+      //   align-self: stretch;
+      //   .item1 {
+      //     position: relative;
+      //     z-index: 1;
+      //     width: unset;
+      //     height: 240px;
+      //     mix-blend-mode: normal;
+      //     display: flex;
+      //     justify-content: center;
+      //     align-items: center;
+      //     order: 0;
+      //     flex: 1;
+
+      //     .item1-img {
+      //       position: relative;
+      //       z-index: 0;
+      //       width: 311px;
+      //       height: 180px;
+      //       border-radius: 8px;
+      //       mix-blend-mode: normal;
+      //       display: flex;
+      //       background-size: cover;
+      //       background-position: center;
+      //       background-repeat: no-repeat;
+      //       background-image: url(https://img.jsdesign2.com/assets/img/6556e73686711ace31ea631a.png#25ebe5445751f295b3f2a216b4622814);
+      //       order: 0;
+      //       flex: 1;
+      //     }
+      //     .item1-txt {
+      //       position: relative;
+      //       top: 220px;
+      //       left: -310px;
+      //       z-index: 2;
+      //       width: unset;
+      //       height: auto;
+      //       mix-blend-mode: normal;
+      //       display: flex;
+      //       flex-direction: column;
+      //       justify-content: flex-start;
+      //       align-items: flex-start;
+      //       gap: 4px;
+      //       order: 1;
+      //       min-height: auto;
+      //       align-self: stretch;
+      //       .it1-txt1 {
+      //         position: relative;
+      //         z-index: 1;
+      //         width: unset;
+      //         height: auto;
+      //         mix-blend-mode: normal;
+      //         display: flex;
+      //         justify-content: flex-start;
+      //         align-items: flex-start;
+      //         overflow: hidden;
+      //         gap: 8px;
+      //         order: 0;
+      //         min-height: auto;
+      //         align-self: stretch;
+      //         .item1-txt1-1 {
+      //           position: relative;
+      //           display: flex;
+      //           flex-direction: column;
+      //           z-index: 0;
+      //           justify-content: start;
+      //           height: 24px;
+      //           mix-blend-mode: normal;
+      //           color: rgba(29, 33, 41, 1);
+      //           font-size: 16px;
+      //           line-height: 24px;
+      //           font-weight: 400;
+      //           opacity: 1;
+      //           font-family: "HarmonyOSSansSC-Regular";
+      //           letter-spacing: 0px;
+      //           white-space: nowrap;
+      //           order: 0;
+      //           width: auto;
+      //         }
+      //         .item1-txt1-2 {
+      //           position: relative;
+      //           display: flex;
+      //           flex-direction: column;
+      //           z-index: 1;
+      //           justify-content: start;
+      //           height: 24px;
+      //           mix-blend-mode: normal;
+      //           color: rgba(134, 144, 156, 1);
+      //           font-size: 16px;
+      //           line-height: 24px;
+      //           font-weight: 400;
+      //           opacity: 1;
+      //           font-family: "HarmonyOSSansSC-Regular";
+      //           letter-spacing: 0px;
+      //           white-space: nowrap;
+      //           order: 1;
+      //           width: auto;
+      //         }
+      //       }
+      //       .it1-txt2 {
+      //         position: relative;
+      //         z-index: 2;
+      //         width: unset;
+      //         height: auto;
+      //         mix-blend-mode: normal;
+      //         display: flex;
+      //         justify-content: flex-start;
+      //         align-items: center;
+      //         gap: 4px;
+      //         order: 1;
+      //         min-height: auto;
+      //         align-self: stretch;
+      //         .item1-txt2-icon {
+      //           position: absolute;
+      //           top: 0;
+      //           left: 0;
+      //           right: 0;
+      //           bottom: 0;
+      //           content: "";
+      //           opacity: 1;
+      //           background-image: var(--bg-img);
+      //           background-size: cover;
+
+      //           position: relative;
+      //           z-index: 0;
+
+      //           box-shadow: unset;
+      //           width: 16px;
+      //           height: 16px;
+      //           mix-blend-mode: normal;
+      //           display: flex;
+      //           background-size: cover;
+      //           background-position: center;
+      //           background-repeat: no-repeat;
+      //           background-image: url(https://img.jsdesign2.com/assets/element/js_gyewIwpzzNH/image/916727f446e547a123e7761fbe334216331b5ec9.png);
+      //           order: 0;
+      //           flex-shrink: 0;
+      //         }
+      //         .item1-txt2-2 {
+      //           position: relative;
+      //           display: flex;
+      //           flex-direction: column;
+      //           z-index: 1;
+      //           justify-content: start;
+      //           width: 291px;
+      //           height: 20px;
+      //           mix-blend-mode: normal;
+      //           color: rgba(134, 144, 156, 1);
+      //           font-size: 14px;
+      //           line-height: 20px;
+      //           font-weight: 400;
+      //           opacity: 1;
+      //           font-family: "HarmonyOSSansSC-Regular";
+      //           letter-spacing: 0px;
+      //           white-space: pre-wrap;
+      //           order: 1;
+      //           flex-shrink: 0;
+      //         }
+      //       }
+      //     }
+      //   }
+      //   .item2 {
+      //     position: relative;
+      //     z-index: 2;
+      //     width: unset;
+      //     height: auto;
+      //     mix-blend-mode: normal;
+      //     display: flex;
+      //     flex-direction: column;
+      //     justify-content: flex-start;
+      //     align-items: flex-start;
+      //     gap: 12px;
+      //     order: 1;
+      //     flex: 1;
+      //     .item2-img {
+      //       position: relative;
+      //       z-index: 0;
+      //       width: unset;
+      //       height: 180px;
+      //       border-radius: 8px;
+      //       mix-blend-mode: normal;
+      //       display: flex;
+      //       background-size: cover;
+      //       background-position: center;
+      //       background-repeat: no-repeat;
+      //       background-image: url(https://img.jsdesign2.com/assets/img/6556e74f43b95387d42669fb.png#6b7a56d0cdc93a4f90696fda6ce1b4f8);
+      //       order: 0;
+      //       flex: 1;
+      //     }
+      //     .item2-txt {
+      //       position: relative;
+
+      //       z-index: 2;
+      //       width: unset;
+      //       height: auto;
+      //       mix-blend-mode: normal;
+      //       display: flex;
+      //       flex-direction: column;
+      //       justify-content: flex-start;
+      //       align-items: flex-start;
+      //       gap: 4px;
+      //       order: 1;
+      //       min-height: auto;
+      //       align-self: stretch;
+      //       .it2-txt1 {
+      //         position: relative;
+      //         z-index: 1;
+      //         width: unset;
+      //         height: auto;
+      //         mix-blend-mode: normal;
+      //         display: flex;
+      //         justify-content: flex-start;
+      //         align-items: flex-start;
+      //         gap: 8px;
+      //         order: 0;
+      //         min-height: auto;
+      //         align-self: stretch;
+      //         .item2-txt1-1 {
+      //           position: relative;
+      //           display: flex;
+      //           flex-direction: column;
+      //           z-index: 0;
+      //           justify-content: start;
+      //           height: 24px;
+      //           mix-blend-mode: normal;
+      //           color: rgba(29, 33, 41, 1);
+      //           font-size: 16px;
+      //           line-height: 24px;
+      //           font-weight: 400;
+      //           opacity: 1;
+      //           font-family: "HarmonyOSSansSC-Regular";
+      //           letter-spacing: 0px;
+      //           white-space: nowrap;
+      //           order: 0;
+      //           width: auto;
+      //         }
+      //         .item2-txt1-2 {
+      //           position: relative;
+      //           display: flex;
+      //           flex-direction: column;
+      //           z-index: 1;
+      //           justify-content: start;
+      //           height: 24px;
+      //           mix-blend-mode: normal;
+      //           color: rgba(134, 144, 156, 1);
+      //           font-size: 16px;
+      //           line-height: 24px;
+      //           font-weight: 400;
+      //           opacity: 1;
+      //           font-family: "HarmonyOSSansSC-Regular";
+      //           letter-spacing: 0px;
+      //           white-space: nowrap;
+      //           order: 1;
+      //           width: auto;
+      //         }
+      //       }
+      //       .it2-txt2 {
+      //         position: relative;
+      //         z-index: 2;
+      //         width: unset;
+      //         height: auto;
+      //         mix-blend-mode: normal;
+      //         display: flex;
+      //         justify-content: flex-start;
+      //         align-items: center;
+      //         gap: 4px;
+      //         order: 1;
+      //         min-height: auto;
+      //         align-self: stretch;
+      //         .item2-txt1-icon {
+      //           position: relative;
+      //           z-index: 0;
+      //           border: unset !important;
+      //           box-shadow: unset;
+      //           width: 16px;
+      //           height: 16px;
+      //           mix-blend-mode: normal;
+      //           display: flex;
+      //           background-size: cover;
+      //           background-position: center;
+      //           background-repeat: no-repeat;
+      //           background-image: url(https://img.jsdesign2.com/assets/element/js_gyewIwpzzNH/image/916727f446e547a123e7761fbe334216331b5ec9.png);
+      //           order: 0;
+      //           flex-shrink: 0;
+      //         }
+      //         .item2-txt2-2 {
+      //           position: relative;
+      //           display: flex;
+      //           flex-direction: column;
+      //           z-index: 1;
+      //           justify-content: start;
+      //           width: 291px;
+      //           height: 20px;
+      //           mix-blend-mode: normal;
+      //           color: rgba(134, 144, 156, 1);
+      //           font-size: 14px;
+      //           line-height: 20px;
+      //           font-weight: 400;
+      //           opacity: 1;
+      //           font-family: "HarmonyOSSansSC-Regular";
+      //           letter-spacing: 0px;
+      //           white-space: pre-wrap;
+      //           order: 1;
+      //           flex-shrink: 0;
+      //         }
+      //       }
+      //     }
+      //   }
+      //   .item3 {
+      //     position: relative;
+      //     z-index: 3;
+      //     width: unset;
+      //     height: auto;
+      //     mix-blend-mode: normal;
+      //     display: flex;
+      //     flex-direction: column;
+      //     justify-content: flex-start;
+      //     align-items: flex-start;
+      //     gap: 12px;
+      //     order: 2;
+      //     flex: 1;
+      //     .item3-img {
+      //       position: relative;
+      //       z-index: 0;
+      //       width: unset;
+      //       height: 180px;
+      //       border-radius: 8px;
+      //       mix-blend-mode: normal;
+      //       display: flex;
+      //       background-size: cover;
+      //       background-position: center;
+      //       background-repeat: no-repeat;
+      //       background-image: url(https://img.jsdesign2.com/assets/img/6556e74f86711ace31ea63ab.png#153a273c83b681d3992638ddce7d636e);
+      //       order: 0;
+      //       flex: 1;
+      //     }
+      //     .item3-txt {
+      //       position: relative;
+      //       z-index: 2;
+      //       width: unset;
+      //       height: auto;
+      //       mix-blend-mode: normal;
+      //       display: flex;
+      //       flex-direction: column;
+      //       justify-content: flex-start;
+      //       align-items: flex-start;
+      //       gap: 4px;
+      //       order: 1;
+      //       min-height: auto;
+      //       align-self: stretch;
+      //       .it3-txt1 {
+      //         position: relative;
+      //         z-index: 1;
+      //         width: unset;
+      //         height: auto;
+      //         mix-blend-mode: normal;
+      //         display: flex;
+      //         justify-content: flex-start;
+      //         align-items: flex-start;
+      //         gap: 8px;
+      //         order: 0;
+      //         min-height: auto;
+      //         align-self: stretch;
+      //         .item3-txt1-1 {
+      //           position: relative;
+      //           display: flex;
+      //           flex-direction: column;
+      //           z-index: 0;
+      //           justify-content: start;
+      //           height: 24px;
+      //           mix-blend-mode: normal;
+      //           color: rgba(29, 33, 41, 1);
+      //           font-size: 16px;
+      //           line-height: 24px;
+      //           font-weight: 400;
+      //           opacity: 1;
+      //           font-family: "HarmonyOSSansSC-Regular";
+      //           letter-spacing: 0px;
+      //           white-space: nowrap;
+      //           order: 0;
+      //           width: auto;
+      //         }
+      //         .item3-txt1-2 {
+      //           position: relative;
+      //           display: flex;
+      //           flex-direction: column;
+      //           z-index: 1;
+      //           justify-content: start;
+      //           height: 24px;
+      //           mix-blend-mode: normal;
+      //           color: rgba(134, 144, 156, 1);
+      //           font-size: 16px;
+      //           line-height: 24px;
+      //           font-weight: 400;
+      //           opacity: 1;
+      //           font-family: "HarmonyOSSansSC-Regular";
+      //           letter-spacing: 0px;
+      //           white-space: nowrap;
+      //           order: 1;
+      //           width: auto;
+      //         }
+      //       }
+      //       .it3-txt2 {
+      //         position: relative;
+      //         z-index: 2;
+      //         width: unset;
+      //         height: auto;
+      //         mix-blend-mode: normal;
+      //         display: flex;
+      //         justify-content: flex-start;
+      //         align-items: center;
+      //         gap: 4px;
+      //         order: 1;
+      //         min-height: auto;
+      //         align-self: stretch;
+      //         .item3-txt1-icon {
+      //           position: relative;
+      //           z-index: 0;
+      //           border: unset !important;
+      //           box-shadow: unset;
+      //           width: 16px;
+      //           height: 16px;
+      //           mix-blend-mode: normal;
+      //           display: flex;
+      //           background-size: cover;
+      //           background-position: center;
+      //           background-repeat: no-repeat;
+      //           background-image: url(https://img.jsdesign2.com/assets/element/js_gyewIwpzzNH/image/916727f446e547a123e7761fbe334216331b5ec9.png);
+      //           order: 0;
+      //           flex-shrink: 0;
+      //         }
+      //         .item3-txt2-2 {
+      //           position: relative;
+      //           display: flex;
+      //           flex-direction: column;
+      //           z-index: 1;
+      //           justify-content: start;
+      //           width: 291px;
+      //           height: 20px;
+      //           mix-blend-mode: normal;
+      //           color: rgba(134, 144, 156, 1);
+      //           font-size: 14px;
+      //           line-height: 20px;
+      //           font-weight: 400;
+      //           opacity: 1;
+      //           font-family: "HarmonyOSSansSC-Regular";
+      //           letter-spacing: 0px;
+      //           white-space: pre-wrap;
+      //           order: 1;
+      //           flex-shrink: 0;
+      //         }
+      //       }
+      //     }
+      //   }
+      //   .item4 {
+      //     position: relative;
+      //     z-index: 4;
+      //     width: unset;
+      //     height: auto;
+      //     mix-blend-mode: normal;
+      //     display: flex;
+      //     flex-direction: column;
+      //     justify-content: flex-start;
+      //     align-items: flex-start;
+      //     gap: 12px;
+      //     order: 3;
+      //     flex: 1;
+      //     .item4-img {
+      //       position: relative;
+      //       z-index: 0;
+      //       width: unset;
+      //       height: 180px;
+      //       border-radius: 8px;
+      //       mix-blend-mode: normal;
+      //       display: flex;
+      //       background-size: cover;
+      //       background-position: center;
+      //       background-repeat: no-repeat;
+      //       background-image: url(https://img.jsdesign2.com/assets/img/6556e73fe1e45fa4efce1420.png#af9528f906d97ad9c68164f4572a6ec4);
+      //       order: 0;
+      //       flex: 1;
+      //     }
+      //     .item4-txt {
+      //       position: relative;
+      //       z-index: 2;
+      //       width: unset;
+      //       height: auto;
+      //       mix-blend-mode: normal;
+      //       display: flex;
+      //       flex-direction: column;
+      //       justify-content: flex-start;
+      //       align-items: flex-start;
+      //       gap: 4px;
+      //       order: 1;
+      //       min-height: auto;
+      //       align-self: stretch;
+      //       .it4-txt1 {
+      //         position: relative;
+      //         z-index: 1;
+      //         width: unset;
+      //         height: auto;
+      //         mix-blend-mode: normal;
+      //         display: flex;
+      //         justify-content: flex-start;
+      //         align-items: flex-start;
+      //         gap: 8px;
+      //         order: 0;
+      //         min-height: auto;
+      //         align-self: stretch;
+      //         .item4-txt1-1 {
+      //           position: relative;
+      //           display: flex;
+      //           flex-direction: column;
+      //           z-index: 0;
+      //           justify-content: start;
+      //           height: 24px;
+      //           mix-blend-mode: normal;
+      //           color: rgba(29, 33, 41, 1);
+      //           font-size: 16px;
+      //           line-height: 24px;
+      //           font-weight: 400;
+      //           opacity: 1;
+      //           font-family: "HarmonyOSSansSC-Regular";
+      //           letter-spacing: 0px;
+      //           white-space: nowrap;
+      //           order: 0;
+      //           width: auto;
+      //         }
+      //         .item4-txt1-2 {
+      //           position: relative;
+      //           display: flex;
+      //           flex-direction: column;
+      //           z-index: 1;
+      //           justify-content: start;
+      //           height: 24px;
+      //           mix-blend-mode: normal;
+      //           color: rgba(134, 144, 156, 1);
+      //           font-size: 16px;
+      //           line-height: 24px;
+      //           font-weight: 400;
+      //           opacity: 1;
+      //           font-family: "HarmonyOSSansSC-Regular";
+      //           letter-spacing: 0px;
+      //           white-space: nowrap;
+      //           order: 1;
+      //           width: auto;
+      //         }
+      //       }
+      //       .it4-txt2 {
+      //         position: relative;
+      //         z-index: 2;
+      //         width: unset;
+      //         height: auto;
+      //         mix-blend-mode: normal;
+      //         display: flex;
+      //         justify-content: flex-start;
+      //         align-items: center;
+      //         gap: 4px;
+      //         order: 1;
+      //         min-height: auto;
+      //         align-self: stretch;
+      //         .item4-txt1-icon {
+      //           position: relative;
+      //           z-index: 0;
+      //           border: unset !important;
+      //           box-shadow: unset;
+      //           width: 16px;
+      //           height: 16px;
+      //           mix-blend-mode: normal;
+      //           display: flex;
+      //           background-size: cover;
+      //           background-position: center;
+      //           background-repeat: no-repeat;
+      //           background-image: url(https://img.jsdesign2.com/assets/element/js_gyewIwpzzNH/image/916727f446e547a123e7761fbe334216331b5ec9.png);
+      //           order: 0;
+      //           flex-shrink: 0;
+      //         }
+      //         .item4-txt2-2 {
+      //           position: relative;
+      //           display: flex;
+      //           flex-direction: column;
+      //           z-index: 1;
+      //           justify-content: start;
+      //           width: 291px;
+      //           height: 20px;
+      //           mix-blend-mode: normal;
+      //           color: rgba(134, 144, 156, 1);
+      //           font-size: 14px;
+      //           line-height: 20px;
+      //           font-weight: 400;
+      //           opacity: 1;
+      //           font-family: "HarmonyOSSansSC-Regular";
+      //           letter-spacing: 0px;
+      //           white-space: pre-wrap;
+      //           order: 1;
+      //           flex-shrink: 0;
+      //         }
+      //       }
+      //     }
+      //   }
+      // }
+      // .pc2b-bottom {
+      //   position: relative;
+      //   z-index: 2;
+      //   width: unset;
+      //   height: auto;
+      //   mix-blend-mode: normal;
+      //   display: flex;
+      //   justify-content: flex-start;
+      //   align-items: flex-start;
+      //   overflow: hidden;
+      //   gap: 12px;
+      //   order: 1;
+      //   min-height: auto;
+      //   align-self: stretch;
+      //   .item5 {
+      //     position: relative;
+      //     z-index: 1;
+      //     width: unset;
+      //     height: auto;
+      //     mix-blend-mode: normal;
+      //     display: flex;
+      //     flex-direction: column;
+      //     justify-content: flex-start;
+      //     align-items: flex-start;
+      //     gap: 12px;
+      //     order: 0;
+      //     flex: 1;
+      //     .item5-img {
+      //       position: relative;
+      //       z-index: 0;
+      //       width: unset;
+      //       height: 180px;
+      //       border-radius: 8px;
+      //       mix-blend-mode: normal;
+      //       display: flex;
+      //       background-size: cover;
+      //       background-position: center;
+      //       background-repeat: no-repeat;
+      //       background-image: url(https://img.jsdesign2.com/assets/img/657561a3c464574bd9b35a0b.png#0270437425b77b8ddb07ceeab65ba732);
+      //       order: 0;
+      //       flex: 1;
+      //     }
+      //     .item5-txt {
+      //       position: relative;
+      //       z-index: 2;
+      //       width: unset;
+      //       height: auto;
+      //       mix-blend-mode: normal;
+      //       display: flex;
+      //       flex-direction: column;
+      //       justify-content: flex-start;
+      //       align-items: flex-start;
+      //       gap: 4px;
+      //       order: 1;
+      //       min-height: auto;
+      //       align-self: stretch;
+      //       .it5-txt1 {
+      //         position: relative;
+      //         z-index: 1;
+      //         width: unset;
+      //         height: auto;
+      //         mix-blend-mode: normal;
+      //         display: flex;
+      //         justify-content: flex-start;
+      //         align-items: flex-start;
+      //         gap: 8px;
+      //         order: 0;
+      //         min-height: auto;
+      //         align-self: stretch;
+      //         .item5-txt1-1 {
+      //           position: relative;
+      //           display: flex;
+      //           flex-direction: column;
+      //           z-index: 0;
+      //           justify-content: start;
+      //           height: 24px;
+      //           mix-blend-mode: normal;
+      //           color: rgba(29, 33, 41, 1);
+      //           font-size: 16px;
+      //           line-height: 24px;
+      //           font-weight: 400;
+      //           opacity: 1;
+      //           font-family: "HarmonyOSSansSC-Regular";
+      //           letter-spacing: 0px;
+      //           white-space: nowrap;
+      //           order: 0;
+      //           width: auto;
+      //         }
+      //         .item5-txt1-2 {
+      //           position: relative;
+      //           display: flex;
+      //           flex-direction: column;
+      //           z-index: 1;
+      //           justify-content: start;
+      //           height: 24px;
+      //           mix-blend-mode: normal;
+      //           color: rgba(134, 144, 156, 1);
+      //           font-size: 16px;
+      //           line-height: 24px;
+      //           font-weight: 400;
+      //           opacity: 1;
+      //           font-family: "HarmonyOSSansSC-Regular";
+      //           letter-spacing: 0px;
+      //           white-space: nowrap;
+      //           order: 1;
+      //           width: auto;
+      //         }
+      //       }
+      //       .it5-txt2 {
+      //         position: relative;
+      //         z-index: 2;
+      //         width: auto;
+      //         height: auto;
+      //         mix-blend-mode: normal;
+      //         display: flex;
+      //         justify-content: flex-start;
+      //         align-items: center;
+      //         gap: 4px;
+      //         order: 1;
+      //         min-height: auto;
+      //         .item5-txt1-icon {
+      //           position: relative;
+      //           z-index: 0;
+      //           border: unset !important;
+      //           box-shadow: unset;
+      //           width: 16px;
+      //           height: 16px;
+      //           mix-blend-mode: normal;
+      //           display: flex;
+      //           background-size: cover;
+      //           background-position: center;
+      //           background-repeat: no-repeat;
+      //           background-image: url(https://img.jsdesign2.com/assets/element/js_gyewIwpzzNH/image/916727f446e547a123e7761fbe334216331b5ec9.png);
+      //           order: 0;
+      //           flex-shrink: 0;
+      //         }
+      //         .item5-txt2-2 {
+      //           position: relative;
+      //           display: flex;
+      //           flex-direction: column;
+      //           z-index: 1;
+      //           justify-content: start;
+      //           height: 20px;
+      //           mix-blend-mode: normal;
+      //           color: rgba(134, 144, 156, 1);
+      //           font-size: 14px;
+      //           line-height: 20px;
+      //           font-weight: 400;
+      //           opacity: 1;
+      //           font-family: "HarmonyOSSansSC-Regular";
+      //           letter-spacing: 0px;
+      //           white-space: nowrap;
+      //           order: 1;
+      //           width: auto;
+      //         }
+      //       }
+      //     }
+      //   }
+      //   .item6 {
+      //     position: relative;
+      //     z-index: 2;
+      //     width: unset;
+      //     height: auto;
+      //     mix-blend-mode: normal;
+      //     display: flex;
+      //     flex-direction: column;
+      //     justify-content: flex-start;
+      //     align-items: flex-start;
+      //     gap: 12px;
+      //     order: 1;
+      //     flex: 1;
+      //     .item6-img {
+      //       position: relative;
+      //       z-index: 0;
+      //       width: unset;
+      //       height: 180px;
+      //       border-radius: 8px;
+      //       mix-blend-mode: normal;
+      //       display: flex;
+      //       background-size: cover;
+      //       background-position: center;
+      //       background-repeat: no-repeat;
+      //       background-image: url(https://img.jsdesign2.com/assets/img/6556e74fe739773bfac4bbbf.png#2687924da7bf308d5680d8c5b1d44fff);
+      //       order: 0;
+      //       flex: 1;
+      //     }
+      //     .item6-txt {
+      //       position: relative;
+      //       z-index: 2;
+      //       width: unset;
+      //       height: auto;
+      //       mix-blend-mode: normal;
+      //       display: flex;
+      //       flex-direction: column;
+      //       justify-content: flex-start;
+      //       align-items: flex-start;
+      //       gap: 4px;
+      //       order: 1;
+      //       min-height: auto;
+      //       align-self: stretch;
+      //       .it6-txt1 {
+      //         position: relative;
+      //         z-index: 1;
+      //         width: unset;
+      //         height: auto;
+      //         mix-blend-mode: normal;
+      //         display: flex;
+      //         justify-content: flex-start;
+      //         align-items: flex-start;
+      //         gap: 8px;
+      //         order: 0;
+      //         min-height: auto;
+      //         align-self: stretch;
+      //         .item6-txt1-1 {
+      //           position: relative;
+      //           display: flex;
+      //           flex-direction: column;
+      //           z-index: 0;
+      //           justify-content: start;
+      //           height: 24px;
+      //           mix-blend-mode: normal;
+      //           color: rgba(29, 33, 41, 1);
+      //           font-size: 16px;
+      //           line-height: 24px;
+      //           font-weight: 400;
+      //           opacity: 1;
+      //           font-family: "HarmonyOSSansSC-Regular";
+      //           letter-spacing: 0px;
+      //           white-space: nowrap;
+      //           order: 0;
+      //           width: auto;
+      //         }
+      //         .item6-txt1-2 {
+      //           position: relative;
+      //           display: flex;
+      //           flex-direction: column;
+      //           z-index: 1;
+      //           justify-content: start;
+      //           height: 24px;
+      //           mix-blend-mode: normal;
+      //           color: rgba(134, 144, 156, 1);
+      //           font-size: 16px;
+      //           line-height: 24px;
+      //           font-weight: 400;
+      //           opacity: 1;
+      //           font-family: "HarmonyOSSansSC-Regular";
+      //           letter-spacing: 0px;
+      //           white-space: nowrap;
+      //           order: 1;
+      //           width: auto;
+      //         }
+      //       }
+      //       .it6-txt2 {
+      //         position: relative;
+      //         z-index: 2;
+      //         width: auto;
+      //         height: auto;
+      //         mix-blend-mode: normal;
+      //         display: flex;
+      //         justify-content: flex-start;
+      //         align-items: center;
+      //         gap: 4px;
+      //         order: 1;
+      //         min-height: auto;
+      //         .item6-txt1-icon {
+      //           position: relative;
+      //           z-index: 0;
+      //           border: unset !important;
+      //           box-shadow: unset;
+      //           width: 16px;
+      //           height: 16px;
+      //           mix-blend-mode: normal;
+      //           display: flex;
+      //           background-size: cover;
+      //           background-position: center;
+      //           background-repeat: no-repeat;
+      //           background-image: url(https://img.jsdesign2.com/assets/element/js_gyewIwpzzNH/image/916727f446e547a123e7761fbe334216331b5ec9.png);
+      //           order: 0;
+      //           flex-shrink: 0;
+      //         }
+      //         .item6-txt2-2 {
+      //           position: relative;
+      //           display: flex;
+      //           flex-direction: column;
+      //           z-index: 1;
+      //           justify-content: start;
+      //           height: 20px;
+      //           mix-blend-mode: normal;
+      //           color: rgba(134, 144, 156, 1);
+      //           font-size: 14px;
+      //           line-height: 20px;
+      //           font-weight: 400;
+      //           opacity: 1;
+      //           font-family: "HarmonyOSSansSC-Regular";
+      //           letter-spacing: 0px;
+      //           white-space: nowrap;
+      //           order: 1;
+      //           width: auto;
+      //         }
+      //       }
+      //     }
+      //   }
+      //   .item7 {
+      //     position: relative;
+      //     z-index: 3;
+      //     width: unset;
+      //     height: auto;
+      //     mix-blend-mode: normal;
+      //     display: flex;
+      //     flex-direction: column;
+      //     justify-content: flex-start;
+      //     align-items: flex-start;
+      //     gap: 12px;
+      //     order: 2;
+      //     flex: 1;
+      //     .item7-img {
+      //       position: relative;
+      //       z-index: 0;
+      //       width: unset;
+      //       height: 180px;
+      //       border-radius: 8px;
+      //       mix-blend-mode: normal;
+      //       display: flex;
+      //       background-size: cover;
+      //       background-position: center;
+      //       background-repeat: no-repeat;
+      //       background-image: url(https://img.jsdesign2.com/assets/img/6556e73f90ab84325baa606a.png#85d85dbadb9db0744eaa6c894d882c4d);
+      //       order: 0;
+      //       flex: 1;
+      //     }
+      //     .item7-txt {
+      //       position: relative;
+      //       z-index: 2;
+      //       width: unset;
+      //       height: auto;
+      //       mix-blend-mode: normal;
+      //       display: flex;
+      //       flex-direction: column;
+      //       justify-content: flex-start;
+      //       align-items: flex-start;
+      //       gap: 4px;
+      //       order: 1;
+      //       min-height: auto;
+      //       align-self: stretch;
+      //       .it7-txt1 {
+      //         position: relative;
+      //         z-index: 1;
+      //         width: unset;
+      //         height: auto;
+      //         mix-blend-mode: normal;
+      //         display: flex;
+      //         justify-content: flex-start;
+      //         align-items: flex-start;
+      //         gap: 8px;
+      //         order: 0;
+      //         min-height: auto;
+      //         align-self: stretch;
+      //         .item7-txt1-1 {
+      //           position: relative;
+      //           display: flex;
+      //           flex-direction: column;
+      //           z-index: 0;
+      //           justify-content: start;
+      //           height: 24px;
+      //           mix-blend-mode: normal;
+      //           color: rgba(29, 33, 41, 1);
+      //           font-size: 16px;
+      //           line-height: 24px;
+      //           font-weight: 400;
+      //           opacity: 1;
+      //           font-family: "HarmonyOSSansSC-Regular";
+      //           letter-spacing: 0px;
+      //           white-space: nowrap;
+      //           order: 0;
+      //           width: auto;
+      //         }
+      //         .item7-txt1-2 {
+      //           position: relative;
+      //           display: flex;
+      //           flex-direction: column;
+      //           z-index: 1;
+      //           justify-content: start;
+      //           height: 24px;
+      //           mix-blend-mode: normal;
+      //           color: rgba(134, 144, 156, 1);
+      //           font-size: 16px;
+      //           line-height: 24px;
+      //           font-weight: 400;
+      //           opacity: 1;
+      //           font-family: "HarmonyOSSansSC-Regular";
+      //           letter-spacing: 0px;
+      //           white-space: nowrap;
+      //           order: 1;
+      //           width: auto;
+      //         }
+      //       }
+      //       .it7-txt2 {
+      //         position: relative;
+      //         z-index: 2;
+      //         width: auto;
+      //         height: auto;
+      //         mix-blend-mode: normal;
+      //         display: flex;
+      //         justify-content: flex-start;
+      //         align-items: center;
+      //         gap: 4px;
+      //         order: 1;
+      //         min-height: auto;
+      //         .item7-txt1-icon {
+      //           position: relative;
+      //           z-index: 0;
+      //           border: unset !important;
+      //           box-shadow: unset;
+      //           width: 16px;
+      //           height: 16px;
+      //           mix-blend-mode: normal;
+      //           display: flex;
+      //           background-size: cover;
+      //           background-position: center;
+      //           background-repeat: no-repeat;
+      //           background-image: url(https://img.jsdesign2.com/assets/element/js_gyewIwpzzNH/image/916727f446e547a123e7761fbe334216331b5ec9.png);
+      //           order: 0;
+      //           flex-shrink: 0;
+      //         }
+      //         .item7-txt2-2 {
+      //           position: relative;
+      //           display: flex;
+      //           flex-direction: column;
+      //           z-index: 1;
+      //           justify-content: start;
+      //           height: 20px;
+      //           mix-blend-mode: normal;
+      //           color: rgba(134, 144, 156, 1);
+      //           font-size: 14px;
+      //           line-height: 20px;
+      //           font-weight: 400;
+      //           opacity: 1;
+      //           font-family: "HarmonyOSSansSC-Regular";
+      //           letter-spacing: 0px;
+      //           white-space: nowrap;
+      //           order: 1;
+      //           width: auto;
+      //         }
+      //       }
+      //     }
+      //   }
+      //   .item8 {
+      //     position: relative;
+      //     z-index: 4;
+      //     width: unset;
+      //     height: auto;
+      //     mix-blend-mode: normal;
+      //     display: flex;
+      //     flex-direction: column;
+      //     justify-content: flex-start;
+      //     align-items: flex-start;
+      //     gap: 12px;
+      //     order: 3;
+      //     flex: 1;
+      //     .item8-img {
+      //       position: relative;
+      //       z-index: 0;
+      //       width: unset;
+      //       height: 180px;
+      //       border-radius: 8px;
+      //       mix-blend-mode: normal;
+      //       display: flex;
+      //       background-size: cover;
+      //       background-position: center;
+      //       background-repeat: no-repeat;
+      //       background-image: url(https://img.jsdesign2.com/assets/img/6556e74fe739773bfac4bbbf.png#2687924da7bf308d5680d8c5b1d44fff);
+      //       order: 0;
+      //       flex: 1;
+      //     }
+      //     .item8-txt {
+      //       position: relative;
+      //       z-index: 2;
+      //       width: unset;
+      //       height: auto;
+      //       mix-blend-mode: normal;
+      //       display: flex;
+      //       flex-direction: column;
+      //       justify-content: flex-start;
+      //       align-items: flex-start;
+      //       gap: 4px;
+      //       order: 1;
+      //       min-height: auto;
+      //       align-self: stretch;
+      //       .it8-txt1 {
+      //         position: relative;
+      //         z-index: 1;
+      //         width: unset;
+      //         height: auto;
+      //         mix-blend-mode: normal;
+      //         display: flex;
+      //         justify-content: flex-start;
+      //         align-items: flex-start;
+      //         gap: 8px;
+      //         order: 0;
+      //         min-height: auto;
+      //         align-self: stretch;
+      //         .item8-txt1-1 {
+      //           position: relative;
+      //           display: flex;
+      //           flex-direction: column;
+      //           z-index: 0;
+      //           justify-content: start;
+      //           height: 24px;
+      //           mix-blend-mode: normal;
+      //           color: rgba(29, 33, 41, 1);
+      //           font-size: 16px;
+      //           line-height: 24px;
+      //           font-weight: 400;
+      //           opacity: 1;
+      //           font-family: "HarmonyOSSansSC-Regular";
+      //           letter-spacing: 0px;
+      //           white-space: nowrap;
+      //           order: 0;
+      //           width: auto;
+      //         }
+      //         .item8-txt1-2 {
+      //           position: relative;
+      //           display: flex;
+      //           flex-direction: column;
+      //           z-index: 1;
+      //           justify-content: start;
+      //           height: 24px;
+      //           mix-blend-mode: normal;
+      //           color: rgba(134, 144, 156, 1);
+      //           font-size: 16px;
+      //           line-height: 24px;
+      //           font-weight: 400;
+      //           opacity: 1;
+      //           font-family: "HarmonyOSSansSC-Regular";
+      //           letter-spacing: 0px;
+      //           white-space: nowrap;
+      //           order: 1;
+      //           width: auto;
+      //         }
+      //       }
+      //       .it8-txt2 {
+      //         position: relative;
+      //         z-index: 2;
+      //         width: auto;
+      //         height: auto;
+      //         mix-blend-mode: normal;
+      //         display: flex;
+      //         justify-content: flex-start;
+      //         align-items: center;
+      //         gap: 4px;
+      //         order: 1;
+      //         min-height: auto;
+      //         .item8-txt1-icon {
+      //           position: relative;
+      //           z-index: 0;
+      //           border: unset !important;
+      //           box-shadow: unset;
+      //           width: 16px;
+      //           height: 16px;
+      //           mix-blend-mode: normal;
+      //           display: flex;
+      //           background-size: cover;
+      //           background-position: center;
+      //           background-repeat: no-repeat;
+      //           background-image: url(https://img.jsdesign2.com/assets/element/js_gyewIwpzzNH/image/916727f446e547a123e7761fbe334216331b5ec9.png);
+      //           order: 0;
+      //           flex-shrink: 0;
+      //         }
+      //         .item8-txt2-2 {
+      //           position: relative;
+      //           display: flex;
+      //           flex-direction: column;
+      //           z-index: 1;
+      //           justify-content: start;
+      //           height: 20px;
+      //           mix-blend-mode: normal;
+      //           color: rgba(134, 144, 156, 1);
+      //           font-size: 14px;
+      //           line-height: 20px;
+      //           font-weight: 400;
+      //           opacity: 1;
+      //           font-family: "HarmonyOSSansSC-Regular";
+      //           letter-spacing: 0px;
+      //           white-space: nowrap;
+      //           order: 1;
+      //           width: auto;
+      //         }
+      //       }
+      //     }
+      //   }
+      // }
     }
   }
 }
@@ -2138,8 +3238,10 @@ export default {
     flex: 1;
 
     .p3l-forehead {
-      position: relative;
-      left: -220px;
+       position: relative;
+      top: -110px;
+      left: 202px;
+      text-align: left;
       display: flex;
       flex-direction: column;
       z-index: 0;
@@ -2160,6 +3262,8 @@ export default {
     }
     .p3l-center {
       position: relative;
+      text-align: left;
+      left: 206px;
       top: -60px;
       display: flex;
       flex-direction: column;
@@ -2174,7 +3278,7 @@ export default {
       opacity: 1;
       font-family: "HarmonyOSSansSC-Regular";
       letter-spacing: 0px;
-      white-space: pre-wrap;
+      // white-space: pre-wrap;
       order: 1;
       height: auto;
       align-self: stretch;
@@ -2183,7 +3287,8 @@ export default {
       top: 150px;
       position: relative;
       .p3lb-box {
-        border: solid 1px black;
+         border: solid 1px black;
+         left: 210px;
         position: relative;
         z-index: 3;
         width: auto;
@@ -2233,7 +3338,7 @@ export default {
   .part3-right {
     position: relative;
     top: -220px;
-    left: 280px;
+    left: 388px;
     width: 720px;
     height: 640px;
     margin-right: 20px;
