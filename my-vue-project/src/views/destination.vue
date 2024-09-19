@@ -95,6 +95,7 @@
     <div class="part2-title">
       <span class="title-txt">热门景点</span>
     </div>
+    <div class="wrap">
     <div class="part2-container">
       <div class="part2-nav">
         <div class="nav-left">
@@ -141,7 +142,7 @@
               </div>
             </div>
           </div>
-          <div class="pc2-bottom-top-item4">
+          <!-- <div class="pc2-bottom-top-item4">
             <div class="img-pc2"></div>
             <div class="text-pc2">
               <div class="text1-pc2">张家界 许晓超</div>
@@ -150,7 +151,7 @@
                 <div class="img-text">湖南省张家界市</div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
 
@@ -186,7 +187,7 @@
               </div>
             </div>
           </div>
-          <div class="pc2-bottom-top-item4">
+          <!-- <div class="pc2-bottom-top-item4">
             <div class="img-pc2"></div>
             <div class="text-pc2">
               <div class="text1-pc2">张家界 许晓超</div>
@@ -195,7 +196,7 @@
                 <div class="img-text">湖南省张家界市</div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
 
         <!-- <div class="pc2-bottom-bottom">
@@ -352,6 +353,7 @@
       </div>
     </div>
   </div>
+  </div>
   <div class="main-part-3">
     <div class="part3-left">
       <div class="p3l-forehead">目的地介绍</div>
@@ -370,7 +372,7 @@
   <!-- Main结束 -->
 
   <!-- Footer开始 -->
-
+<div class="wrap">
   <div class="footer">
     <div class="footer-forehead">
       <div class="footer-forehead-left">
@@ -430,6 +432,7 @@
       </div>
     </div>
   </div>
+</div>
 
   <!-- Footer结束 -->
 </template>
@@ -458,6 +461,10 @@ export default {
 @user-img-url: url("/src/assets/6556e75090ab84325baa614a.png");
 .affix-container {
   width: 100%;
+ margin:0 auto;
+    max-width: 1200px;
+    /* 设置最小宽度 */
+    max-width: 1200px;
      a{
        color: black;
      }
@@ -549,13 +556,15 @@ export default {
 
 
 .main-part-4{
+  top: 350px;
+    position: relative;
   .warp{
     margin: 0 auto;
     width: 1200px;
     min-width: 1200px;
     max-width: 1200px;
     gap:20px;
-    .part1-right{
+ //   .part1-right{
 // position: relative;
 //       z-index: 2;
 //       width: 680px;
@@ -568,7 +577,7 @@ export default {
 //       justify-content: center;
 //       align-items: center; /* 中心对齐内容 */
       
-    }
+   // }
   }
 }
 
@@ -637,10 +646,16 @@ export default {
 
 /* Main样式开始*/
 .main-part-1 {
+  background-image: url("../assets/destinationBanner.jpg");
+  background-size:cover;
+  background-repeat:no-repeat; 
+  background-position:center; 
+  height:689px;
+
   position: relative;
   z-index: 2;
   width: unset;
-  height: auto;
+ 
   mix-blend-mode: normal;
   display: flex;
   flex-direction: column;
@@ -887,6 +902,7 @@ export default {
     // }
     .part1-right {
       position: relative;
+      top:300px;
       z-index: 2;
       width: 680px;
       height: 1080px;
@@ -922,9 +938,13 @@ export default {
 }
 .main-part-2 {
   position: relative;
+  top:400px;
   z-index: 3;
-  width: unset;
-  height: auto;
+  width: 100%;
+    max-width: 1200px;
+    /* 设置最小宽度 */
+    max-width: 1200px;
+    margin:0 auto;
   mix-blend-mode: normal;
   display: flex;
   flex-direction: column;
@@ -957,6 +977,7 @@ export default {
     height: auto;
     align-self: stretch;
     .title-txt {
+
       color: rgba(29, 33, 41, 1);
       font-size: 48px;
       line-height: 56px;
@@ -964,9 +985,16 @@ export default {
       font-family: "HarmonyOSSansSC-Bold";
       letter-spacing: 0px;
       white-space: pre-wrap;
+      position: relative;
+    left: -70px;
     }
-  }
+  }.wrap{ width: 100%;
+    max-width: 1200px;
+    /* 设置最小宽度 */
+    max-width: 1200px;
+    margin:0 auto;
   .part2-container {
+    left: -120px;
     position: relative;
     z-index: 2;
     width: 1280px;
@@ -1148,6 +1176,7 @@ export default {
       }
       .nav-right {
         position: relative;
+        right:100px;
         z-index: 2;
         width: auto;
         height: auto;
@@ -1250,7 +1279,7 @@ export default {
         justify-content: flex-start;
         align-items: flex-start;
         overflow: hidden;
-        gap: 12px;
+        gap: 126px;
         order: 0;
         min-height: auto;
         align-self: stretch;
@@ -3374,13 +3403,16 @@ export default {
       //   }
       // }
     }
-  }
+  }}
 }
 .main-part-3 {
   position: relative;
   z-index: 4;
-  width: unset;
-  height: auto;
+  width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* 设置最小宽度 */
+    max-width: 1200px;
   mix-blend-mode: normal;
   display: flex;
   flex-direction: column;
@@ -3412,7 +3444,7 @@ export default {
 
     .p3l-forehead {
       position: relative;
-      top: -110px;
+      top: 130px;
       left: 202px;
       text-align: left;
       display: flex;
@@ -3434,15 +3466,19 @@ export default {
       align-self: stretch;
     }
     .p3l-center {
+    //   display: -webkit-box; /* 必须使用这个显示方式 */
+    // -webkit-box-orient: vertical; /* 设置为垂直布局 */
+    // -webkit-line-clamp: 5; /* 限制显示为五行 */
+    width: 500px;
       position: relative;
       text-align: left;
       left: 206px;
-      top: -60px;
+      top: 120px;
       display: flex;
       flex-direction: column;
       z-index: 1;
       justify-content: start;
-      width: unset;
+     
       mix-blend-mode: normal;
       color: rgba(29, 33, 41, 1);
       font-size: 18px;
@@ -3460,6 +3496,7 @@ export default {
       top: 150px;
       position: relative;
       .p3lb-box {
+        top:230px;
         border: solid 1px black;
         left: 210px;
         position: relative;
@@ -3510,7 +3547,7 @@ export default {
   }
   .part3-right {
     position: relative;
-    top: -220px;
+    top: -60px;
     left: 388px;
     width: 720px;
     height: 640px;
@@ -3523,8 +3560,12 @@ export default {
 }
 
 /*Main样式结束*/
-
-/* Footer样式开始 */
+/* footer样式开始 */
+.wrap{ width: 1200px;
+    max-width: 1200px;
+    /* 设置最小宽度 */
+    max-width: 1200px;
+    margin:0 auto;
 .footer {
   position: relative;
   z-index: 5;
@@ -3904,8 +3945,12 @@ export default {
     align-self: stretch;
     .footer-bottom-container-head {
       position: relative;
+      width: 1200px;
+    max-width: 1200px;
+    /* 设置最小宽度 */
+ margin:0 auto;
       z-index: 0;
-      width: unset;
+    
       height: 1px;
       mix-blend-mode: normal;
       display: flex;
@@ -3951,7 +3996,7 @@ export default {
       }
     }
   }
-}
-/* Footer样式结束 */
+}}
+/* footer样式结束 */
 </style>
   

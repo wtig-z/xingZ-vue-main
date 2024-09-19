@@ -1,7 +1,7 @@
 <template>
 <div class="body">
-
-    <div class="card" style="margin-right:90px">
+  <div class="join1">
+  <div class="card" >
         <div class="card-img" id="marin"> </div>
         <div class="card-discription">
             <h2 id="visit-header"> Visit Marin County </h2>
@@ -15,7 +15,7 @@
                 href="https://www.tripadvisor.com/Tourism-g155988-Marin_County_California-Vacations.html"> View more
                 information </a> </button>
     </div>
-    <div class="card" style="margin-right:90px">
+    <div class="card" >
         <div class="card-img" id="yosemite"> </div>
         <div class="card-discription">
             <h2 id="visit-header">Visit Yosemite </h2>
@@ -42,6 +42,50 @@
                 href="https://www.tripadvisor.com/Tourism-g33045-Santa_Barbara_California-Vacations.html"> View more
                 information </a> </button>
     </div>
+  </div>
+    <div class="join2">
+      <div class="card" >
+        <div class="card-img" id="marin"> </div>
+        <div class="card-discription">
+            <h2 id="visit-header"> Visit Marin County </h2>
+            <h2 id="visit-state"> California </h2>
+            <p> Just north of San Francisco and in driving distance of Napa, Marin is the nature part of life everyone
+                has been missing. From its rolling hills, to its redwood tree forests; Marin is home to unforgettable
+                hikes and panoramic views. Popular spots are Muir Woods National Monument, Mount Tamalpais State Park,
+                and Bolinas Ridge. </p>
+        </div>
+        <button id="booknowbtn"> <a
+                href="https://www.tripadvisor.com/Tourism-g155988-Marin_County_California-Vacations.html"> View more
+                information </a> </button>
+    </div>
+    <div class="card" >
+        <div class="card-img" id="yosemite"> </div>
+        <div class="card-discription">
+            <h2 id="visit-header">Visit Yosemite </h2>
+            <h2 id="visit-state"> California </h2>
+            <p> Yosemite is a jaw dropping National Park, hidden away in California’s Sierra Nevada mountains. It’s
+                famed for its giant ancient sequoia trees and iconic vistas. After a long day hiking Bridalveil Fall, El
+                Capitan, or Half Dome; you can wind down at Yosemite Village which has shops, restaurants, lodging. </p>
+        </div>
+        <button id="booknowbtn"> <a
+                href="https://www.tripadvisor.com/Attraction_Review-g61000-d489919-Reviews-Yosemite_Valley-Yosemite_National_Park_California.html">
+                View more information </a> </button>
+    </div>
+    <div class="card">
+        <div class="card-img" id="sb"> </div>
+        <div class="card-discription">
+            <h2 id="visit-header"> Visit Santa Barbara </h2>
+            <h2 id="visit-state"> California </h2>
+            <p> Santa Barbara is a city on the central California coast, with the Santa Ynez Mountains as dramatic
+                backdrop. Downtown, Mediterranean-style white stucco buildings with red-tile roofs reflect the city’s
+                Spanish colonial heritage. Upscale boutiques and restaurants offering local wines and seasonal fare line
+                State Street. </p>
+        </div>
+        <button id="booknowbtn"> <a
+                href="https://www.tripadvisor.com/Tourism-g33045-Santa_Barbara_California-Vacations.html"> View more
+                information </a> </button>
+    </div>
+  </div>
     <!-- <div class="card">
         <div class="card-img"> </div>
         <div class="card-discription">
@@ -68,14 +112,40 @@ export default {
 </script>
 <style scoped>
 .body {
+  top:-340px;
+   position:relative;
   width:1080px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 
   padding-top: 20px;
-}
 
+  
+}
+.join1{
+  position: relative;
+  top:200px;
+  display: flex;
+  gap:110px;
+  width: 100%;
+    max-width: 1200px;
+    /* 设置最小宽度 */
+    max-width: 1200px;
+    margin:0 auto;
+}
+.join2{
+  position: relative;
+  top:200px;
+  display: flex;
+  gap:110px;
+  width: 100%;
+    max-width: 1200px;
+    /* 设置最小宽度 */
+    max-width: 1200px;
+    margin:0 auto;
+
+}
 .card {
   margin-top: 50px;
   background: white;
@@ -89,6 +159,10 @@ export default {
   text-align: center;
   overflow: hidden;
   transition: all 0.6s ease;
+/* 
+  justify-content: space-between;
+  width: 30%;
+  flex-wrap: wrap; */
 }
 
 .card-img {
