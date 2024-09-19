@@ -1,7 +1,7 @@
 <template>
 <div class="body">
 
-    <div class="card">
+    <div class="card" style="margin-right:90px">
         <div class="card-img" id="marin"> </div>
         <div class="card-discription">
             <h2 id="visit-header"> Visit Marin County </h2>
@@ -15,7 +15,7 @@
                 href="https://www.tripadvisor.com/Tourism-g155988-Marin_County_California-Vacations.html"> View more
                 information </a> </button>
     </div>
-    <div class="card">
+    <div class="card" style="margin-right:90px">
         <div class="card-img" id="yosemite"> </div>
         <div class="card-discription">
             <h2 id="visit-header">Visit Yosemite </h2>
@@ -42,7 +42,7 @@
                 href="https://www.tripadvisor.com/Tourism-g33045-Santa_Barbara_California-Vacations.html"> View more
                 information </a> </button>
     </div>
-    <div class="card">
+    <!-- <div class="card">
         <div class="card-img"> </div>
         <div class="card-discription">
             <h2 id="visit-header"> Visit Austin </h2>
@@ -53,7 +53,7 @@
         </div>
         <button id="booknowbtn"> <a href="https://www.tripadvisor.com/Tourism-g30196-Austin_Texas-Vacations.html"> View
                 more information </a> </button>
-    </div>
+    </div> -->
 
 </div>
 </template>
@@ -72,7 +72,7 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background: black;
+
   padding-top: 20px;
 }
 

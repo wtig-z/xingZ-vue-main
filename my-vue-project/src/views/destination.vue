@@ -1,7 +1,48 @@
 <template>
   <!-- <div class="styled">Hello, Vue with LESS!</div> -->
   <!-- Header开始 -->
-  <div class="header">
+
+    <div class="affix-container">
+    <!-- 检查 target 的设置 -->
+    <el-affix :offset="0">
+      <div class="header">
+        <div class="header-container">
+          <div class="nav-menu">
+            <div class="left-header">
+              <div class="title">
+                <span><a href="#">行舟旅游网站</a></span>
+              </div>
+              <div class="nav-items">
+                <span><a href="#">首页</a></span>
+                <span><a href="#">目的地</a></span>
+                <span><a href="#">旅游产品</a></span>
+                <span><a href="#">关于我们</a></span>
+                <span><a href="#">更多内容</a></span>
+              </div>
+            </div>
+
+            <div class="search">
+              <el-autocomplete
+                v-model="state1"
+                :fetch-suggestions="querySearch"
+                placeholder="请输入内容"
+                @select="handleSelect"
+                @focus="clearInput"
+                size="small"
+              ></el-autocomplete>
+              <p>{{ $t("message.hello") }}</p>
+            </div>
+
+            <div class="right-header">
+              <div class="userImage"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </el-affix>
+  </div>
+
+  <!-- <div class="header">
     <div class="header-container">
       <div class="left-header">
         <div class="title"><span>旅游网站</span></div>
@@ -16,7 +57,7 @@
         <div class="right-header-img-2"></div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- Header结束 -->
 
   <!-- Main开始 -->
@@ -40,11 +81,16 @@
           </div>
         </div>
       </div>
-      <div class="part1-right">
-       <TextComponent />
+    </div>
+  </div>
+  <div class="main-part-4">
+    <div class="warp">
+      <div class="part1-right" >  
+        <TextComponent />
       </div>
     </div>
   </div>
+
   <div class="main-part-2">
     <div class="part2-title">
       <span class="title-txt">热门景点</span>
@@ -63,7 +109,7 @@
           <div class="nr-button2"><span class="nrb2-txt">自然风光</span></div>
         </div>
       </div>
-     <div class="pc2-bottom">
+      <div class="pc2-bottom">
         <div class="pc2-bottom-top">
           <div class="pc2-bottom-top-item1">
             <div class="img-pc2"></div>
@@ -389,18 +435,145 @@
 </template>
   
   <script>
-  import TextComponent from '@/components/TextComponent.vue';
+import TextComponent from "@/components/TextComponent.vue";
 
 export default {
   name: "App",
   components: {
-    TextComponent,  // 注册 TextComponent 组件
+    TextComponent, // 注册 TextComponent 组件
   },
 };
 </script>
   
   
   <style lang="less">
+// 定义通用变量
+@color-primary: rgba(29, 33, 41, 1);
+@font-kalam-bold: "Kalam-Bold";
+@font-harmony: "HarmonyOSSansSC-Regular";
+@bg-color: white;
+@box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+@header-height: 72px;
+@container-width: 1200px;
+@user-img-url: url("/src/assets/6556e75090ab84325baa614a.png");
+.affix-container {
+  width: 100%;
+     a{
+       color: black;
+     }
+  .header {
+    width: 100%;
+    height: @header-height;
+    z-index: 1000; // 确保导航栏在其他元素之上
+    background-color: @bg-color; // 背景颜色
+    box-shadow: @box-shadow; // 添加阴影
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+    .header-container {
+      position: relative;
+      width: 100%;
+      max-width: @container-width;
+      min-width: @container-width;
+      height: @header-height;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+      box-sizing: border-box;
+
+      .nav-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+        .left-header {
+          display: flex;
+          align-items: center;
+          gap: 60px;
+
+          .title {
+            color: @color-primary;
+            font-size: 22px;
+            font-weight: 700;
+            font-family: @font-kalam-bold;
+            white-space: nowrap;
+          }
+
+          .nav-items {
+            display: flex;
+            gap: 32px;
+
+            span {
+              color: @color-primary;
+              font-size: 16px;
+              line-height: 24px;
+              font-weight: 400;
+              font-family: @font-harmony;
+              white-space: nowrap;
+            }
+          }
+        }
+
+        .search {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+        }
+
+        .right-header {
+          display: flex;
+          align-items: center;
+          gap: 24px;
+
+          .userImage {
+            width: 40px;
+            height: 40px;
+            background-image: var(--bg-img);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 50%;
+            --bg-img: var(--img-url);
+            --img-url: @user-img-url;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+.main-part-4{
+  .warp{
+    margin: 0 auto;
+    width: 1200px;
+    min-width: 1200px;
+    max-width: 1200px;
+    gap:20px;
+    .part1-right{
+// position: relative;
+//       z-index: 2;
+//       width: 680px;
+//       height: 1080px;
+//       mix-blend-mode: normal;
+//       display: flex;
+//       order: 1;
+//       flex-shrink: 0;
+//       overflow: hidden; /* 确保内容不会溢出 */
+//       justify-content: center;
+//       align-items: center; /* 中心对齐内容 */
+      
+    }
+  }
+}
+
+
+
 .styled {
   color: #333;
   background-color: lighten(#f06, 10%);
@@ -521,7 +694,7 @@ export default {
         align-self: stretch;
         .txt1 {
           position: relative;
-          left: -70px;
+          left: 50px;
           display: flex;
           flex-direction: column;
           z-index: 0;
@@ -541,7 +714,7 @@ export default {
           align-self: stretch;
         }
         .txt2 {
-         position: relative;
+          position: relative;
           left: 48px;
           text-align: left;
           display: flex;
@@ -706,45 +879,45 @@ export default {
     //     background-image: url(https://img.jsdesign2.com/assets/img/65374fa6ccc9429bf6ded8c1.png#a538c274220a418dcb396bc184e07ba7);
     //   }
     // }
-//     .part1-right {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   height: 100%;
-// }
- .part1-right {
-  position: relative;
-  z-index: 2;
-  width: 680px;
-  height: 1080px;
-  mix-blend-mode: normal;
-  display: flex;
-  order: 1;
-  flex-shrink: 0;
-  overflow: hidden;  /* 确保内容不会溢出 */
-  justify-content: center;
-  align-items: center;  /* 中心对齐内容 */
-}
+    //     .part1-right {
+    //   display: flex;
+    //   justify-content: center;
+    //   align-items: center;
+    //   height: 100%;
+    // }
+    .part1-right {
+      position: relative;
+      z-index: 2;
+      width: 680px;
+      height: 1080px;
+      mix-blend-mode: normal;
+      display: flex;
+      order: 1;
+      flex-shrink: 0;
+      overflow: hidden; /* 确保内容不会溢出 */
+      justify-content: center;
+      align-items: center; /* 中心对齐内容 */
+    }
 
-.cards-container {
-  width:2000px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  transform: scale(0.7);  /* 调整缩放比例，确保卡片适应容器 */
-  transform-origin: center; /* 缩放中心 */
-  gap: 10px;  /* 卡片之间的间距 */
-}
+    .cards-container {
+      width: 2000px;
+      display: flex;
+      flex-wrap: wrap;
 
-.card {
-  margin: 5px;
-  width: auto;  /* 调整卡片宽度以适应容器 */
-  height: auto;
-  box-sizing: border-box;
-  /* 其他样式保持不变 */
-}
+      justify-content: center;
+      transform: scale(0.7); /* 调整缩放比例，确保卡片适应容器 */
+      transform-origin: center; /* 缩放中心 */
+      gap: 10px; /* 卡片之间的间距 */
+    }
 
-
+    .card {
+      margin-right: 30px;
+      margin: 5px;
+      width: auto; /* 调整卡片宽度以适应容器 */
+      height: auto;
+      box-sizing: border-box;
+      /* 其他样式保持不变 */
+    }
   }
 }
 .main-part-2 {
@@ -807,7 +980,7 @@ export default {
     order: 1;
     min-height: auto;
     .part2-nav {
-       position: relative;
+      position: relative;
       left: 50px;
       z-index: 1;
       width: unset;
@@ -821,7 +994,7 @@ export default {
       min-height: auto;
       align-self: stretch;
       .nav-left {
-       position: relative;
+        position: relative;
         z-index: 1;
         width: unset;
         height: auto;
@@ -1051,7 +1224,7 @@ export default {
         }
       }
     }
-  .pc2-bottom {
+    .pc2-bottom {
       left: 50px;
       position: relative;
       z-index: 1;
@@ -3238,7 +3411,7 @@ export default {
     flex: 1;
 
     .p3l-forehead {
-       position: relative;
+      position: relative;
       top: -110px;
       left: 202px;
       text-align: left;
@@ -3287,8 +3460,8 @@ export default {
       top: 150px;
       position: relative;
       .p3lb-box {
-         border: solid 1px black;
-         left: 210px;
+        border: solid 1px black;
+        left: 210px;
         position: relative;
         z-index: 3;
         width: auto;
