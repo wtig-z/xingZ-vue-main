@@ -11,7 +11,10 @@
                 hikes and panoramic views. Popular spots are Muir Woods National Monument, Mount Tamalpais State Park,
                 and Bolinas Ridge. </p>
         </div>
-        <button id="booknowbtn"> <a
+        <button id="booknowbtn" style="
+    background-color: #b9e0ff;
+    border-style:none;
+"> <a
                 href="https://www.tripadvisor.com/Tourism-g155988-Marin_County_California-Vacations.html"> View more
                 information </a> </button>
     </div>
@@ -24,7 +27,10 @@
                 famed for its giant ancient sequoia trees and iconic vistas. After a long day hiking Bridalveil Fall, El
                 Capitan, or Half Dome; you can wind down at Yosemite Village which has shops, restaurants, lodging. </p>
         </div>
-        <button id="booknowbtn"> <a
+        <button id="booknowbtn" style="
+    background-color: #b9e0ff;
+    border-style:none;
+"> <a
                 href="https://www.tripadvisor.com/Attraction_Review-g61000-d489919-Reviews-Yosemite_Valley-Yosemite_National_Park_California.html">
                 View more information </a> </button>
     </div>
@@ -38,7 +44,10 @@
                 Spanish colonial heritage. Upscale boutiques and restaurants offering local wines and seasonal fare line
                 State Street. </p>
         </div>
-        <button id="booknowbtn"> <a
+        <button id="booknowbtn" style="
+    background-color: #b9e0ff;
+    border-style:none;
+"> <a
                 href="https://www.tripadvisor.com/Tourism-g33045-Santa_Barbara_California-Vacations.html"> View more
                 information </a> </button>
     </div>
@@ -54,7 +63,10 @@
                 hikes and panoramic views. Popular spots are Muir Woods National Monument, Mount Tamalpais State Park,
                 and Bolinas Ridge. </p>
         </div>
-        <button id="booknowbtn"> <a
+        <button id="booknowbtn" style="
+    background-color: #b9e0ff;
+    border-style:none;
+"> <a
                 href="https://www.tripadvisor.com/Tourism-g155988-Marin_County_California-Vacations.html"> View more
                 information </a> </button>
     </div>
@@ -67,7 +79,10 @@
                 famed for its giant ancient sequoia trees and iconic vistas. After a long day hiking Bridalveil Fall, El
                 Capitan, or Half Dome; you can wind down at Yosemite Village which has shops, restaurants, lodging. </p>
         </div>
-        <button id="booknowbtn"> <a
+        <button id="booknowbtn" style="
+    background-color: #b9e0ff;
+    border-style:none;
+"> <a
                 href="https://www.tripadvisor.com/Attraction_Review-g61000-d489919-Reviews-Yosemite_Valley-Yosemite_National_Park_California.html">
                 View more information </a> </button>
     </div>
@@ -81,7 +96,10 @@
                 Spanish colonial heritage. Upscale boutiques and restaurants offering local wines and seasonal fare line
                 State Street. </p>
         </div>
-        <button id="booknowbtn"> <a
+        <button id="booknowbtn" style="
+    background-color: #b9e0ff;
+    border-style:none;
+"> <a
                 href="https://www.tripadvisor.com/Tourism-g33045-Santa_Barbara_California-Vacations.html"> View more
                 information </a> </button>
     </div>
@@ -155,7 +173,7 @@ export default {
   grid-template-areas: "image" "text" "bottom";
   font-family: roboto;
   border-radius: 18px;
-  box-shadow: -1rem 0 2rem #000;
+  box-shadow:     -1rem 0 2rem #aeadad;;
   text-align: center;
   overflow: hidden;
   transition: all 0.6s ease;
@@ -202,6 +220,7 @@ export default {
 }
 
 .booknowbtn {
+  
   background: linear-gradient(#f2eecb, #cfb997);
   grid-area: bottom;
   border: none;
@@ -235,7 +254,7 @@ export default {
 
 a {
   text-decoration: none;
-  color: white;
+  color: rgb(12, 12, 12);
 }
 
 @media (max-width: 900px) {

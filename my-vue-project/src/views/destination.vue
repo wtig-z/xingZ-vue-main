@@ -70,6 +70,25 @@
             欢迎来到我们的旅游目的地页面，这里有丰富的旅游资源等待你的探索。
           </div>
         </div>
+        <div class="place-search-panel">
+          <h2>Don't fear the unknown</h2>
+          <form action="search-form" method="get">
+            <div class="searchbar">
+              <input class="search-input" autocomplete="off" type="text" name="q" placeholder="我想去">
+              <a class="search-button" href="#" data-cs-l="搜索" role="button">
+                <i class="icon-search"></i>
+              </a>
+            </div>
+            <div></div>
+          </form>
+          <div class="places-search-hot">
+            <a href="/travel-scenic-spot/mafengwo/10065.html">北京</a>
+            <a href="/travel-scenic-spot/mafengwo/10088.html">广州</a> 
+            <a href="/travel-scenic-spot/mafengwo/10207.html">苏州</a>
+            <a href="/travel-scenic-spot/mafengwo/10208.html">重庆</a>
+            <a href="/travel-scenic-spot/mafengwo/10466.html">长沙</a>
+          </div>
+        </div>
         <div class="left-bottom">
           <div class="button1">
             <div class="button1-txt">查看更多</div>
@@ -81,11 +100,22 @@
           </div>
         </div>
       </div>
+      <div class="show-info">
+        <div class="show-name">
+          <a href="https://www.mafengwo.cn/gonglve/ziyouxing/302680.html" target="_blank">
+            <h2>神仙海岛得三款热门玩法，去普吉一定不能错过</h2>
+          </a>
+        </div>
+        <p class="txt">关于泰国普吉岛，这个多面风情的岛屿，常年位于境外旅游热搜榜前列，第一次去的人，容易被它的热带海岛风情和高性价比吸引到想再二刷；第N次去的人，更是因为每次都能发现普吉的新玩法，让人想再多宠幸一遍。</p>
+        <div class="show-links">
+          <a href="http://www.mafengwo.cn/gonglve/ziyouxing/302680.html" target="_blank">阅读全文</a>
+        </div>
+      </div>
     </div>
   </div>
   <div class="main-part-4">
     <div class="warp">
-      <div class="part1-right" >  
+      <div class="part1-right" style="position:relative ;left:100px" >  
         <TextComponent />
       </div>
     </div>
@@ -462,9 +492,9 @@ export default {
 .affix-container {
   width: 100%;
  margin:0 auto;
-    max-width: 1200px;
+    
     /* 设置最小宽度 */
-    max-width: 1200px;
+
      a{
        color: black;
      }
@@ -716,7 +746,7 @@ export default {
           justify-content: start;
           width: unset;
           mix-blend-mode: normal;
-          color: rgba(29, 33, 41, 1);
+          color:  rgb(247, 247, 247);
           font-size: 56px;
           line-height: 66px;
           font-weight: 700;
@@ -738,7 +768,7 @@ export default {
           justify-content: start;
           width: unset;
           mix-blend-mode: normal;
-          color: rgba(29, 33, 41, 1);
+          color: rgb(247, 247, 247);
           font-size: 18px;
           line-height: 28px;
           font-weight: 400;
@@ -750,6 +780,44 @@ export default {
           height: auto;
           align-self: stretch;
         }
+      }
+      .place-search-panel{
+        position: relative;
+    left: 50px;
+        h2 {
+  font-size: 20px;
+  color:  rgb(247, 247, 247);
+  margin-bottom: 15px;
+  font-weight: normal;
+  line-height: 1;
+  font-family: "Microsoft Yahei";
+}
+form{display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+  .search-input{
+    height: 46px;
+    width:348px;
+  }
+    .icon-search {
+      display: inline-block;  
+  margin-top: 7px;  
+  width: 50px;  
+  height: 50px;  
+  background: url("../assets/基础-搜素 (1).png") no-repeat center / 50px 50px;  
+  overflow: hidden;  
+  vertical-align: top;  
+  position: relative;
+    top: -10px;
+    left: 20px;
+}
+  }
+  .places-search-hot{
+   a{ margin-right: 10px;
+    color: rgb(247, 247, 247);}
+  }
+        
+        
       }
       .left-bottom {
         position: relative;
@@ -822,7 +890,57 @@ export default {
         }
       }
     }
-
+.show-info{
+  margin-top: -120px;
+    padding-right: 30px;
+    // border-right: 7px solid #100f0f;
+    width: 550px;
+    height: 285px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, .5);
+    color: rgb(247, 247, 247);
+    font-size: 16px;
+    line-height: 1.8;
+    white-space: normal;
+    text-align: left;
+    margin-right: 100px;
+    .show-name{
+      position: static;
+  margin: 10px 0;
+  font-size: 40px;
+  line-height: 1.3;
+  text-align: left;
+  a{ color: rgb(247, 247, 247); /* 将超链接的颜色更改为黑色 */  
+  text-decoration: none; /* 可选：移除下划线，如果你也不想要下划线的话 */  
+}  
+  
+/* 如果你还想为鼠标悬停在链接上时改变颜色，可以这样做： */  
+a:hover {  
+  color:#ffd000; /* 鼠标悬停时链接颜色变为红色 */}
+      h2{
+        font-weight: normal;
+  line-height: inherit;
+      }
+    
+      .txt{top: 130px;
+    right: 140px;
+    font-size: 18px;}
+    }
+    .show-links{
+      position: static;
+    display: inline-block;
+    margin-top: 10px;
+    color:  rgb(247, 247, 247);
+    text-decoration: underline;
+    font-size: 24px;
+    a{ color:  rgb(247, 247, 247); /* 将超链接的颜色更改为黑色 */  
+  text-decoration: none; /* 可选：移除下划线，如果你也不想要下划线的话 */  
+}  
+  
+/* 如果你还想为鼠标悬停在链接上时改变颜色，可以这样做： */  
+a:hover {  
+  color:#ffd000; /* 鼠标悬停时链接颜色变为红色 */}
+    }
+}
     //   .picture1 {
     //     position: absolute;
     //     z-index: 0;
@@ -902,6 +1020,9 @@ export default {
     // }
     .part1-right {
       position: relative;
+  
+    left: 100px;
+
       top:300px;
       z-index: 2;
       width: 680px;
@@ -911,8 +1032,8 @@ export default {
       order: 1;
       flex-shrink: 0;
       overflow: hidden; /* 确保内容不会溢出 */
-      justify-content: center;
-      align-items: center; /* 中心对齐内容 */
+      //justify-content: center;
+      //align-items: center; /* 中心对齐内容 */
     }
 
     .cards-container {
