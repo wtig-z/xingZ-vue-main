@@ -1,13 +1,23 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
-import store from './store'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'font-awesome/css/font-awesome.min.css'
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './router';
+import store from './store';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
 import { createI18n } from 'vue-i18n';
-import $ from 'jquery'
+import $ from 'jquery';
 import ElementPlus from 'element-plus';
 import 'element-plus/dist/index.css';
+
+const app = createApp(App);
+
+// 注册插件
+app.use(ElementPlus);
+app.use(router); // 如果使用了 Vue Router
+app.use(store); // 如果使用了 Vuex
+
+app.mount('#app');
+
 
 
 // 定义测试用的语言内容
