@@ -134,247 +134,128 @@
       <h1>热门目的地</h1>
     </div>
     <div class="h-container">
-      <div class="hc-left">
-        <div>
-          <dt>直辖市</dt>
-          <dd>
-            <a href="/travel-scenic-spot/mafengwo/10065.html" target="_blank"
-              >北京</a
+      <el-row>
+        <el-col :span="12">
+          <div class="region">
+            <el-row>
+              <el-col :span="6" style="font-size:16px ;font-family: Arial;"> 直辖市 </el-col>
+              <el-col :span="12">北京 上海 重庆 天津 </el-col>
+            </el-row>
+          </div>
+        </el-col>
+        <el-col :span="12">
+          <el-row class="region">
+            <el-col :span="6" style="font-size:16px ;font-family: Arial;">西藏 贵州</el-col>
+            <el-col :span="12"> 拉萨 林芝 阿里 黔东南 </el-col>
+          </el-row>
+        </el-col>
+
+        <el-col :span="12">
+          <el-row class="region">
+            <el-col :span="6" style="font-size:16px ;font-family: Arial;">云南</el-col>
+
+            <el-col :span="12"
+              >丽江 大理 昆明 香格里拉 泸沽湖 双廊 西双版纳 束河 腾冲
+              雨崩</el-col
             >
-            <a href="/travel-scenic-spot/mafengwo/10099.html" target="_blank"
-              >上海</a
+          </el-row>
+        </el-col>
+
+        <el-col :span="12">
+          <el-row class="region">
+            <el-col :span="6" style="font-size:16px ;font-family: Arial;">西北</el-col>
+            <el-col :span="12"
+              >西安 青海湖 西宁 祁连 敦煌 兰州 甘南 张掖 嘉峪关 新疆</el-col
             >
-            <a href="/travel-scenic-spot/mafengwo/10208.html" target="_blank"
-              >重庆</a
+          </el-row>
+        </el-col>
+
+        <el-col :span="12">
+          <el-row class="region">
+            <el-col :span="6" style="font-size:16px ;font-family: Arial;">四川</el-col>
+
+            <el-col :span="12"
+              >成都 九寨沟 稻城 色达 若尔盖 都江堰 亚丁 阿坝 峨眉山
+              牛背山</el-col
             >
-            <a href="/travel-scenic-spot/mafengwo/10320.html" target="_blank"
-              >天津</a
+          </el-row>
+        </el-col>
+
+        <el-col :span="12" >
+          <el-row class="region">
+            <el-col :span="6" style="font-size:16px ;font-family: Arial;">山东 山西</el-col>
+            <el-col :span="12"
+              >青岛 泰山 日照 威海 烟台 长岛 蓬莱 平遥 大同 五台山
+              壶口瀑布</el-col
             >
-          </dd>
-        </div>
-        <div>
-          <dt>云南</dt>
-          <dd>
-            <a href="/travel-scenic-spot/mafengwo/10065.html" target="_blank"
-              >北京</a
+          </el-row>
+        </el-col>
+
+        <el-col :span="12" >
+          <el-row class="region">
+            <el-col :span="6" style="font-size:16px ;font-family: Arial;">浙江</el-col>
+            <el-col :span="12"
+              >杭州 乌镇 西塘 千岛湖 普陀山 东极岛 南浔
+            </el-col>
+          </el-row>
+        </el-col>
+
+        <el-col :span="12">
+          <el-row class="region">
+            <el-col :span="6" style="font-size:16px ;font-family: Arial;">湖南 湖北</el-col>
+            <el-col :span="12">张家界 凤凰 郴州 武汉 恩施 神农架</el-col>
+          </el-row>
+        </el-col>
+        <el-col :span="12">
+          <el-row class="region">
+            <el-col :span="6" style="font-size:16px ;font-family: Arial;">海南 福建 </el-col>
+            <el-col :span="14"
+              >三亚 蜈支洲岛 海口 厦门 鼓浪屿 武夷山 泉州</el-col
             >
-            <a href="/travel-scenic-spot/mafengwo/10099.html" target="_blank"
-              >上海</a
+          </el-row>
+        </el-col>
+        <el-col :span="12">
+          <el-row class="region">
+            <el-col :span="6" style="font-size:16px ;font-family: Arial;">安徽 江西</el-col>
+            <el-col :span="12">黄山 宏村 婺源 景德镇 庐山 三清山 南昌</el-col>
+          </el-row>
+        </el-col>
+        <el-col :span="12">
+          <el-row class="region">
+            <el-col :span="6" style="font-size:16px ;font-family: Arial;">江苏</el-col>
+            <el-col :span="12"
+              >南京 苏州 无锡 扬州 周庄 常州 连云港 同里</el-col
             >
-            <a href="/travel-scenic-spot/mafengwo/10208.html" target="_blank"
-              >重庆</a
+          </el-row>
+        </el-col>
+        <el-col :span="12">
+          <el-row class="region">
+            <el-col :span="6" style="font-size:16px ;font-family: Arial;">河北 河南</el-col>
+            <el-col :span="12"
+              >北戴河 秦皇岛 承德 张北 少林寺 洛阳 龙门石窟</el-col
             >
-            <a href="/travel-scenic-spot/mafengwo/10320.html" target="_blank"
-              >天津</a
+          </el-row>
+        </el-col>
+        <el-col :span="12">
+          <el-row class="region">
+            <el-col :span="6" style="font-size:16px ;font-family: Arial;">广东 广西</el-col>
+            <el-col :span="12"
+              >广州 深圳 珠海 汕头 桂林 阳朔 北海 黄姚古镇 涠洲岛
+              龙脊梯田</el-col
             >
-          </dd>
-        </div>
-        <div>
-          <dt>四川</dt>
-          <dd>
-            <a href="/travel-scenic-spot/mafengwo/10065.html" target="_blank"
-              >北京</a
+          </el-row>
+        </el-col>
+        <el-col :span="12">
+          <el-row class="region"> 
+            <el-col :span="6" style="font-size:16px ;font-family: Arial;">内蒙古 东北</el-col>
+            <el-col :span="12"
+              >呼伦贝尔 阿尔山 海拉尔 哈尔滨 漠河 雪乡 大连 丹东 盘锦</el-col
             >
-            <a href="/travel-scenic-spot/mafengwo/10099.html" target="_blank"
-              >上海</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10208.html" target="_blank"
-              >重庆</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10320.html" target="_blank"
-              >天津</a
-            >
-          </dd>
-        </div>
-        <div>
-          <dt>浙江</dt>
-          <dd>
-            <a href="/travel-scenic-spot/mafengwo/10065.html" target="_blank"
-              >北京</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10099.html" target="_blank"
-              >上海</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10208.html" target="_blank"
-              >重庆</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10320.html" target="_blank"
-              >天津</a
-            >
-          </dd>
-        </div>
-        <div>
-          <dt>海南 福建</dt>
-          <dd>
-            <a href="/travel-scenic-spot/mafengwo/10065.html" target="_blank"
-              >北京</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10099.html" target="_blank"
-              >上海</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10208.html" target="_blank"
-              >重庆</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10320.html" target="_blank"
-              >天津</a
-            >
-          </dd>
-        </div>
-        <div>
-          <dt>江苏</dt>
-          <dd>
-            <a href="/travel-scenic-spot/mafengwo/10065.html" target="_blank"
-              >北京</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10099.html" target="_blank"
-              >上海</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10208.html" target="_blank"
-              >重庆</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10320.html" target="_blank"
-              >天津</a
-            >
-          </dd>
-        </div>
-        <div>
-          <dt>广东 广西</dt>
-          <dd>
-            <a href="/travel-scenic-spot/mafengwo/10065.html" target="_blank"
-              >北京</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10099.html" target="_blank"
-              >上海</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10208.html" target="_blank"
-              >重庆</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10320.html" target="_blank"
-              >天津</a
-            >
-          </dd>
-        </div>
-      </div>
-      <div class="hc-right">
-        <div>
-          <dt>西藏 贵州</dt>
-          <dd>
-            <a href="/travel-scenic-spot/mafengwo/10065.html" target="_blank"
-              >北京</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10099.html" target="_blank"
-              >上海</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10208.html" target="_blank"
-              >重庆</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10320.html" target="_blank"
-              >天津</a
-            >
-          </dd>
-        </div>
-        <div>
-          <dt>西北</dt>
-          <dd>
-            <a href="/travel-scenic-spot/mafengwo/10065.html" target="_blank"
-              >北京</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10099.html" target="_blank"
-              >上海</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10208.html" target="_blank"
-              >重庆</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10320.html" target="_blank"
-              >天津</a
-            >
-          </dd>
-        </div>
-        <div>
-          <dt>山东 山西</dt>
-          <dd>
-            <a href="/travel-scenic-spot/mafengwo/10065.html" target="_blank"
-              >北京</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10099.html" target="_blank"
-              >上海</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10208.html" target="_blank"
-              >重庆</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10320.html" target="_blank"
-              >天津</a
-            >
-          </dd>
-        </div>
-        <div>
-          <dt>湖南 湖北</dt>
-          <dd>
-            <a href="/travel-scenic-spot/mafengwo/10065.html" target="_blank"
-              >北京</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10099.html" target="_blank"
-              >上海</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10208.html" target="_blank"
-              >重庆</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10320.html" target="_blank"
-              >天津</a
-            >
-          </dd>
-        </div>
-        <div>
-          <dt>安徽 江西</dt>
-          <dd>
-            <a href="/travel-scenic-spot/mafengwo/10065.html" target="_blank"
-              >北京</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10099.html" target="_blank"
-              >上海</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10208.html" target="_blank"
-              >重庆</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10320.html" target="_blank"
-              >天津</a>
-          </dd>
-        </div>
-        <div>
-          <dt>河北 河南</dt>
-          <dd>
-            <a href="/travel-scenic-spot/mafengwo/10065.html" target="_blank"
-              >北京</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10099.html" target="_blank"
-              >上海</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10208.html" target="_blank"
-              >重庆</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10320.html" target="_blank"
-              >天津</a
-            >
-          </dd>
-        </div>
-        <div>
-          <dt>内蒙古 东北</dt>
-          <dd>
-            <a href="/travel-scenic-spot/mafengwo/10065.html" target="_blank"
-              >北京</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10099.html" target="_blank"
-              >上海</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10208.html" target="_blank"
-              >重庆</a
-            >
-            <a href="/travel-scenic-spot/mafengwo/10320.html" target="_blank"
-              >天津</a
-            >
-          </dd>
-        </div>
-      </div>
+          </el-row>
+        </el-col>
+      </el-row>
+      <div class="hc-left"></div>
+      <div class="hc-right"></div>
     </div>
   </div>
 
@@ -733,9 +614,17 @@
 </template>
   
   <script>
-import { defineComponent } from 'vue';
+import { defineComponent } from "vue";
 // 引入 Element Plus 组件
-import { ElContainer, ElHeader, ElAside, ElMain, ElFooter, ElRow, ElCol } from 'element-plus';
+import {
+  ElContainer,
+  ElHeader,
+  ElAside,
+  ElMain,
+  ElFooter,
+  ElRow,
+  ElCol,
+} from "element-plus";
 import TextComponent from "@/components/TextComponent.vue";
 
 export default defineComponent({
@@ -755,6 +644,8 @@ export default defineComponent({
   
   
   <style lang="less">
+
+  
 // 定义通用变量
 @color-primary: rgba(29, 33, 41, 1);
 @font-kalam-bold: "Kalam-Bold";
@@ -764,6 +655,11 @@ export default defineComponent({
 @header-height: 72px;
 @container-width: 1200px;
 @user-img-url: url("/src/assets/6556e75090ab84325baa614a.png");
+
+
+.region {
+    padding-bottom: 20px;
+  }
 .affix-container {
   width: 100%;
   margin: 0 auto;
@@ -773,6 +669,7 @@ export default defineComponent({
   a {
     color: black;
   }
+  
   .header {
     width: 100%;
     height: @header-height;
